@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "23d4112894e653ed",
+        "id": "35d1f827c0ef0885",
         "type": "tabs",
         "children": [
           {
-            "id": "9058c617cac4ef8b",
+            "id": "0b32a3055c83b8b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,15 +191,30 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9058c617cac4ef8b",
+  "active": "0b32a3055c83b8b7",
   "lastOpenFiles": [
+    "pics/Pasted image 20260805224120.png",
+    "如何利用“部分分式分解”来解有理函数积分问题.md",
+    "pics/Pasted image 20260805224115.png",
+    "万能代换求三角函数有理式.md",
+    "Base.base",
+    "2026-7-28.md",
+    "题目.md",
+    "pics/高斯公式例题.png",
+    "pics/高数例题11-20.png",
+    "对称性.md",
+    "pics/Pasted image 20260801194521.png",
+    "pics/Pasted image 20260805223444.png",
+    "pics/Pasted image 20260727212627.png",
+    "pics/Pasted image 20260731191403.png",
+    "pics/Pasted image 20260728223402.png",
+    "pics/Pasted image 20260805223331.png",
     "积分公式.md",
     "积分题目复盘.md",
     "工具箱第0层/五个常用麦克劳林展开式.md",
     "遇到正项级数尝试计算部分和.md",
     "一重积分计算.md",
     "为什么散度的定义是三个偏导之和.md",
-    "Pasted image 20260727212627.png",
     "三种解法.md",
     "利用“平移代换”简化积分计算.md",
     "经典的极限.md",
