@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "77436393f1710514",
+    "type": "split",
+    "children": [
+      {
+        "id": "579ac08f1895d56e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "742c4ccb174102d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file1/file2/file3/note1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "note1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e90671b7cbfd1816",
+    "type": "split",
+    "children": [
+      {
+        "id": "be98d4b6a4b56d8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cfb791b4ee9437f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "715469cbd3c9fe8f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9c115cb9fdb7f8ca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 230.5
+  },
+  "right": {
+    "id": "8cc032aba3597e76",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7306d5fd4c6fe43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c83d60706d06827d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "第5章 中央处理器.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "第5章 中央处理器 的反向链接列表"
+            }
+          },
+          {
+            "id": "814a18cbba0ceafe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "第5章 中央处理器.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "第5章 中央处理器 的出链列表"
+            }
+          },
+          {
+            "id": "5665f75f5093182f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "08bc980d4e9c5f0d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "ac39549f42a8d13d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "file1/file2/file3/note1.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "742c4ccb174102d2",
+  "lastOpenFiles": [
+    "数据库.base",
+    "file1/file2/file3/note1.md",
+    "file1/file2/file3",
+    "file1/file2",
+    "file1",
+    "关于各种字长的比较.md",
+    "第5章 中央处理器.md",
+    "第4章 指令系统.md",
+    "地址总线宽度.md",
+    "第1章 计算机系统概述.md",
+    "杂项/2025考研408计算机学科专业基础真题.pdf",
+    "第3章 存储系统.md",
+    "第2章 数据的表示和运算.md",
+    "pics/扩展操作码计算题.png",
+    "pics/定点数表示范围.png",
+    "test.canvas",
+    "第三章_存储系统.md",
+    "第二章_数据的表示和运算.md",
+    "第一章 计算机系统概述.pdf",
+    "2025考研408计算机学科专业基础真题.pdf",
+    "计算机组成原理(谭志虎).pdf",
+    "pics",
+    "2025考研408计算机学科专业基础（真题）.pdf"
+  ]
+}

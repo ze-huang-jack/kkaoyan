@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"0e8256699189764c","x":-957,"y":-539,"width":400,"height":400,"type":"file","file":"关于积分计算的对称性的总结.md"},
+		{"id":"0abd6d97db937cd2","type":"file","file":"格林公式.md","x":600,"y":-920,"width":400,"height":400},
+		{"id":"6fbb85f42b059f1e","type":"file","file":"曲线积分.md","x":680,"y":-280,"width":400,"height":400},
+		{"id":"0b8740ee3d7b6f3c","type":"file","file":"二重积分计算.md","x":-200,"y":-520,"width":400,"height":400},
+		{"id":"0f08dd0ffd498ee8","type":"file","file":"基础公式/正弦与余弦的和差角公式.md","x":0,"y":1000,"width":400,"height":400},
+		{"id":"11536790d91490d7","type":"file","file":"基础公式/欧拉公式.md","x":600,"y":1200,"width":400,"height":400},
+		{"id":"5cf605f14ea5278e","type":"file","file":"基础公式/二倍角公式、半角公式.md","x":480,"y":520,"width":400,"height":400},
+		{"id":"f1f5a624c4591665","type":"file","file":"基础公式/降幂公式.md","x":-480,"y":600,"width":400,"height":400},
+		{"id":"72e90126bc8b2d50","type":"file","file":"一重积分计算.md","x":-400,"y":80,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"0ca245380ef54845","fromNode":"6fbb85f42b059f1e","fromSide":"top","toNode":"0abd6d97db937cd2","toSide":"bottom"},
+		{"id":"3c93f0e5eb4a18e1","fromNode":"6fbb85f42b059f1e","fromSide":"left","toNode":"0b8740ee3d7b6f3c","toSide":"bottom"},
+		{"id":"5214b2071aced2d2","fromNode":"0abd6d97db937cd2","fromSide":"left","toNode":"0b8740ee3d7b6f3c","toSide":"right"},
+		{"id":"673d56e0ed1fd4ef","fromNode":"0b8740ee3d7b6f3c","fromSide":"left","toNode":"72e90126bc8b2d50","toSide":"right"},
+		{"id":"8c5e55447b2f7c8c","fromNode":"5cf605f14ea5278e","fromSide":"left","toNode":"0f08dd0ffd498ee8","toSide":"right"},
+		{"id":"eddcbdb591f6cfef","fromNode":"f1f5a624c4591665","fromSide":"left","toNode":"5cf605f14ea5278e","toSide":"top"},
+		{"id":"a9e39945cf747cbe","fromNode":"72e90126bc8b2d50","fromSide":"left","toNode":"f1f5a624c4591665","toSide":"bottom"},
+		{"id":"9341cec812cac138","fromNode":"0f08dd0ffd498ee8","fromSide":"bottom","toNode":"11536790d91490d7","toSide":"top"},
+		{"id":"44cc243fee5ad317","fromNode":"0b8740ee3d7b6f3c","fromSide":"left","toNode":"0e8256699189764c","toSide":"right"}
+	]
+}

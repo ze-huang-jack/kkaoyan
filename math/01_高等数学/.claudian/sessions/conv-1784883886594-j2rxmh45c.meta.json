@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784883886594-j2rxmh45c",
+  "providerId": "claude",
+  "title": "Fix LaTeX oiint rendering issue",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784883886602,
+  "updatedAt": 1784963827286,
+  "lastResponseAt": 1784884777593,
+  "sessionId": "ac47caae-93d4-4537-91c3-e2a2c2b248d5",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "ac47caae-93d4-4537-91c3-e2a2c2b248d5"
+  },
+  "currentNote": "如何利用高斯公式解曲面积分.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 135,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 79232,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 79367,
+    "percentage": 8
+  }
+}

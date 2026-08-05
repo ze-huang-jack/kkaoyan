@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784438159360-1gknt2ywu",
+  "providerId": "claude",
+  "title": "Summarize double integral calculation notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784438159360,
+  "updatedAt": 1784441003495,
+  "lastResponseAt": 1784440120710,
+  "sessionId": "4bac4e73-63b9-4c79-8e70-2d52808ae331",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "4bac4e73-63b9-4c79-8e70-2d52808ae331"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4238,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 57088,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 61326,
+    "percentage": 6
+  }
+}

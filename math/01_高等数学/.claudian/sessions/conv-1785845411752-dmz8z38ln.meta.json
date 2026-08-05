@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785845411752-dmz8z38ln",
+  "providerId": "claude",
+  "title": "Organize note formatting",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785845411761,
+  "updatedAt": 1785922102555,
+  "lastResponseAt": 1785845473948,
+  "sessionId": "22d16488-e0d2-4824-a55d-63ac60d8f9ff",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "22d16488-e0d2-4824-a55d-63ac60d8f9ff"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 165,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47488,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 47653,
+    "percentage": 5
+  }
+}

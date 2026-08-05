@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785051766446-ll0l269mu",
+  "providerId": "claude",
+  "title": "Format math theorems in Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785051766453,
+  "updatedAt": 1785098946709,
+  "lastResponseAt": 1785051813309,
+  "sessionId": "b2f8edad-f887-4efb-bd91-96fd9d91745b",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "b2f8edad-f887-4efb-bd91-96fd9d91745b"
+  },
+  "currentNote": "未命名.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 690,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43648,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44338,
+    "percentage": 4
+  }
+}

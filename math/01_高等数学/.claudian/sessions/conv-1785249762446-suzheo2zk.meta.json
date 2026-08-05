@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785249762446-suzheo2zk",
+  "providerId": "claude",
+  "title": "LaTeXify mathematical formulas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785249762458,
+  "updatedAt": 1785255303726,
+  "lastResponseAt": 1785250394532,
+  "sessionId": "90d0becc-d977-4b04-a94c-c9d24185c3a1",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "90d0becc-d977-4b04-a94c-c9d24185c3a1"
+  },
+  "currentNote": "对称性.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1492,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50816,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 52308,
+    "percentage": 5
+  }
+}

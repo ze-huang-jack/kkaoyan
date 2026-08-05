@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784366343559-61tj4sbpe",
+  "providerId": "claude",
+  "title": "Format markdown table comparison",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784366343566,
+  "updatedAt": 1784366378386,
+  "lastResponseAt": 1784366378386,
+  "sessionId": "de21ae31-41a6-48c9-8e5c-29244f464502",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "de21ae31-41a6-48c9-8e5c-29244f464502"
+  },
+  "currentNote": "概念明晰.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 549,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43648,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44197,
+    "percentage": 22
+  }
+}

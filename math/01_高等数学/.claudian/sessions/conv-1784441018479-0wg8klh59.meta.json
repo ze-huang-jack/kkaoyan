@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784441018479-0wg8klh59",
+  "providerId": "claude",
+  "title": "Review single integral computation notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784441018480,
+  "updatedAt": 1784461531667,
+  "lastResponseAt": 1784441106050,
+  "sessionId": "a7c322c7-0083-4a4c-8088-35fae7c70712",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "a7c322c7-0083-4a4c-8088-35fae7c70712"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 179,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52736,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 52915,
+    "percentage": 5
+  }
+}

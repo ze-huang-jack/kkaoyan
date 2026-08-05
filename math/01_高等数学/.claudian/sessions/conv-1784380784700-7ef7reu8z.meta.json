@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784380784700-7ef7reu8z",
+  "providerId": "claude",
+  "title": "Create Green's theorem notes with classic problems",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784380784702,
+  "updatedAt": 1784387753572,
+  "lastResponseAt": 1784387749029,
+  "sessionId": "6f4156d6-499e-47a2-bd57-3d94d5ff7f2a",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "6f4156d6-499e-47a2-bd57-3d94d5ff7f2a"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 89,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45184,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45273,
+    "percentage": 23
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "1bd5947333ee4eec",
+    "type": "split",
+    "children": [
+      {
+        "id": "23d4112894e653ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9058c617cac4ef8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "如何利用“部分分式分解”来解有理函数积分问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "如何利用“部分分式分解”来解有理函数积分问题"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b756f19951dc8b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe03068fc0d5314c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1667e0c530e87e90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "64ce13c62c03d8a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "部分分式",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6aafba72fa8ada31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9800b14f5b2d4333",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ef3d0ce32ca952b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbe14954fdf80b63",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "积分公式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "69abae26e028ae82",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "如何利用“部分分式分解”来解有理函数积分问题.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "0c5846fbeddfdafe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8a19d2dc22648c31",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "3dd5209b405ebe8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "积分公式.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false
+    }
+  },
+  "active": "9058c617cac4ef8b",
+  "lastOpenFiles": [
+    "积分公式.md",
+    "积分题目复盘.md",
+    "工具箱第0层/五个常用麦克劳林展开式.md",
+    "遇到正项级数尝试计算部分和.md",
+    "一重积分计算.md",
+    "为什么散度的定义是三个偏导之和.md",
+    "Pasted image 20260727212627.png",
+    "三种解法.md",
+    "利用“平移代换”简化积分计算.md",
+    "经典的极限.md",
+    "极限存档by chatgpt.md",
+    "基本积分表.md",
+    "级数例题.md",
+    "积分统一的框架概述.md",
+    "积分的统一框架.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784461545611-xg0bs0lhi",
+  "providerId": "claude",
+  "title": "整理表格格式",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784461545619,
+  "updatedAt": 1784462336010,
+  "lastResponseAt": 1784461580150,
+  "sessionId": "c0a2c600-562d-4192-a27e-1fdc1b255a70",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "c0a2c600-562d-4192-a27e-1fdc1b255a70"
+  },
+  "currentNote": "关于积分计算的对称性的总结.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 855,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42112,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 42967,
+    "percentage": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784387766017-4dg1rauh5",
+  "providerId": "claude",
+  "title": "Create surface integral study notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784387766018,
+  "updatedAt": 1785101345014,
+  "lastResponseAt": 1784437668874,
+  "sessionId": "39b0fc01-c892-4468-815b-f98c5af0e485",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "39b0fc01-c892-4468-815b-f98c5af0e485"
+  },
+  "currentNote": "曲面积分.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 22909,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22272,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45181,
+    "percentage": 23
+  }
+}

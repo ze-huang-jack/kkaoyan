@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785255326113-ufst2vjc8",
+  "providerId": "claude",
+  "title": "Convert math formulas to LaTeX",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785255326115,
+  "updatedAt": 1785334699078,
+  "lastResponseAt": 1785255374308,
+  "sessionId": "2486a37e-ee1b-4e7c-943f-0e147df6e822",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "2486a37e-ee1b-4e7c-943f-0e147df6e822"
+  },
+  "currentNote": "对称性：三维.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 970,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42752,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 43722,
+    "percentage": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784963922659-u5x0o6exi",
+  "providerId": "claude",
+  "title": "Compile triple integral study guide",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784963922665,
+  "updatedAt": 1785051732491,
+  "lastResponseAt": 1784964115780,
+  "sessionId": "87dddfb1-5daf-4b3d-8947-76ce35579325",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "87dddfb1-5daf-4b3d-8947-76ce35579325"
+  },
+  "currentNote": "三重积分的计算.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 11144,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49152,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 60296,
+    "percentage": 6
+  }
+}

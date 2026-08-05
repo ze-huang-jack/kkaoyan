@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784462355434-wefjeljdw",
+  "providerId": "claude",
+  "title": "Review line integrals with classic problems",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784462355434,
+  "updatedAt": 1784468859521,
+  "lastResponseAt": 1784462458584,
+  "sessionId": "bf58c1df-c27e-4d88-9f6f-5ad8ba14ee55",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "bf58c1df-c27e-4d88-9f6f-5ad8ba14ee55"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 125,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 56320,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 56445,
+    "percentage": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785922113768-l8yyqakgv",
+  "providerId": "claude",
+  "title": "Format note layout",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785922113777,
+  "updatedAt": 1785922175534,
+  "lastResponseAt": 1785922175534,
+  "sessionId": "f877d70c-d686-4a85-bc3a-1a985fc875cb",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "f877d70c-d686-4a85-bc3a-1a985fc875cb"
+  },
+  "currentNote": "反三角函数恒等式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 129,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46208,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 46337,
+    "percentage": 5
+  }
+}

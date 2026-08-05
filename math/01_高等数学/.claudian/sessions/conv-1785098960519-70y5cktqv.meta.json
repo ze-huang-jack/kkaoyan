@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785098960519-70y5cktqv",
+  "providerId": "claude",
+  "title": "文本生成结束。用户要求生成对话标题。\n\n目标：根据用户“我想做p级数相关的笔记，帮我总结复习一...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785098960531,
+  "updatedAt": 1785101342731,
+  "lastResponseAt": 1785099087869,
+  "sessionId": "1133c68c-fbd5-4b50-954a-f0aecbad6eac",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "1133c68c-fbd5-4b50-954a-f0aecbad6eac"
+  },
+  "currentNote": "工具箱第0层/p级数.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 118,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45312,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45430,
+    "percentage": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784468875629-o3akx8una",
+  "providerId": "claude",
+  "title": "Calculate center of mass of a uniform arc",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784468875629,
+  "updatedAt": 1784883872072,
+  "lastResponseAt": 1784468922211,
+  "sessionId": "8862a475-7ddd-4545-8a66-1d056dfca746",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "8862a475-7ddd-4545-8a66-1d056dfca746"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2158,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42112,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44270,
+    "percentage": 4
+  }
+}

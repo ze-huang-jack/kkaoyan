@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785397431877-ko9s9bjsz",
+  "providerId": "claude",
+  "title": "Create notes on extremum points for Math I",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785397431880,
+  "updatedAt": 1785522965853,
+  "lastResponseAt": 1785397543069,
+  "sessionId": "e0c598fe-7758-49e9-98ea-1eaa32974017",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "e0c598fe-7758-49e9-98ea-1eaa32974017"
+  },
+  "currentNote": "求函数极值点.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4203,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 48896,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 53099,
+    "percentage": 5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785324211529-gd1qlyxc9",
+  "providerId": "claude",
+  "title": "Format document content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785324211537,
+  "updatedAt": 1785334695775,
+  "lastResponseAt": 1785324249722,
+  "sessionId": "cba473fa-845c-4328-9bec-0274fc96d21b",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "cba473fa-845c-4328-9bec-0274fc96d21b"
+  },
+  "currentNote": "反射和轮换对称性.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 182,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43392,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 43574,
+    "percentage": 4
+  }
+}

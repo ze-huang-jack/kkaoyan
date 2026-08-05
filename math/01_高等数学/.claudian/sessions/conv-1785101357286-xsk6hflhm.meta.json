@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785101357286-xsk6hflhm",
+  "providerId": "claude",
+  "title": "Create improper integral notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785101357286,
+  "updatedAt": 1785230754279,
+  "lastResponseAt": 1785101459133,
+  "sessionId": "d8c38559-c0ad-4325-99f8-93387af6418f",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "d8c38559-c0ad-4325-99f8-93387af6418f"
+  },
+  "currentNote": "反常积分的计算.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 7493,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50688,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 58181,
+    "percentage": 6
+  }
+}

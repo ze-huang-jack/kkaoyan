@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785522988587-0l0ruubf3",
+  "providerId": "claude",
+  "title": "整理选中文本格式",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785522988596,
+  "updatedAt": 1785845402990,
+  "lastResponseAt": 1785523033557,
+  "sessionId": "2c9e980b-af14-4c29-9cc5-4eb6fd48d877",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "2c9e980b-af14-4c29-9cc5-4eb6fd48d877"
+  },
+  "currentNote": "如何理解第一类曲面积分的微元.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1287,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43136,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44423,
+    "percentage": 4
+  }
+}
