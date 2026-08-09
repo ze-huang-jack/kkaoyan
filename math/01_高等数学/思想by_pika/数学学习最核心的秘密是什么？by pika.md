@@ -10,3 +10,6 @@ https://www.bilibili.com/video/BV1Mn4y197jB/?vd_source=014dcd125f261c697c434a643
 
 **原则和想法是解决难题的关键**
 ![[Pasted image 20260803222612.png]]
+
+[[破局之道在局外#^9a344d]]
+
