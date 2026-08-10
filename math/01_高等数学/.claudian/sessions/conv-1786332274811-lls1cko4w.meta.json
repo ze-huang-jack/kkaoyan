@@ -1,0 +1,25 @@
+{
+  "id": "conv-1786332274811-lls1cko4w",
+  "providerId": "claude",
+  "title": "Summarize differential equations key concepts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786332274817,
+  "updatedAt": 1786332364493,
+  "lastResponseAt": 1786332364493,
+  "sessionId": "c0e20a0d-0468-44b8-9f50-6790344be3ac",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "c0e20a0d-0468-44b8-9f50-6790344be3ac"
+  },
+  "currentNote": "微分方程.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 110,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47488,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 47598,
+    "percentage": 5
+  }
+}

@@ -4,12 +4,14 @@
   "title": "Format note layout",
   "titleGenerationStatus": "success",
   "createdAt": 1785922113777,
-  "updatedAt": 1785922175534,
+  "updatedAt": 1786332256157,
   "lastResponseAt": 1785922175534,
-  "sessionId": "f877d70c-d686-4a85-bc3a-1a985fc875cb",
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "f877d70c-d686-4a85-bc3a-1a985fc875cb"
+    "previousProviderSessionIds": [
+      "f877d70c-d686-4a85-bc3a-1a985fc875cb"
+    ]
   },
   "currentNote": "反三角函数恒等式.md",
   "usage": {
