@@ -13,152 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "利用麦克劳林展开求高阶导.md",
+                "file": "通量为什么一定要这么定义.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "利用麦克劳林展开求高阶导"
-            }
-          },
-          {
-            "id": "b2e0e37fa765e81a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "pics/Pasted image 20260806052102.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260806052102"
-            }
-          },
-          {
-            "id": "b7e9c06edd6a468d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "七种未定式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "七种未定式"
-            }
-          },
-          {
-            "id": "70a2dc052a0c023a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "重根.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "重根"
-            }
-          },
-          {
-            "id": "b70dca9c4d1b373f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具箱第0层/五个常用麦克劳林展开式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "五个常用麦克劳林展开式"
-            }
-          },
-          {
-            "id": "ca8956935f1552ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "积分题目复盘.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "积分题目复盘"
-            }
-          },
-          {
-            "id": "1c9ef5050d6f4a98",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "数学一分值分布/数学一各考点分值情况.png"
-              },
-              "icon": "lucide-image",
-              "title": "数学一各考点分值情况"
-            }
-          },
-          {
-            "id": "e3d31abc3fe2e0dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "思想by_pika/要不要刷题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "要不要刷题"
-            }
-          },
-          {
-            "id": "d9b6ae3b89bf43c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "极值点 复盘.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "极值点 复盘"
-            }
-          },
-          {
-            "id": "adc19812d7667f57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第二章 一元函数微分学及其应用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第二章 一元函数微分学及其应用"
-            }
-          },
-          {
-            "id": "6a08b261a3adc5e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第三章 一元函数积分学及其应用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第三章 一元函数积分学及其应用"
+              "title": "通量为什么一定要这么定义"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "高阶",
+                "query": "分部",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -298,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第二章 一元函数微分学及其应用.md",
+                "file": "通量为什么一定要这么定义.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -336,43 +199,44 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "adc19812d7667f57",
+  "active": "8c252de6c5d9377e",
   "lastOpenFiles": [
-    "积分题目复盘.md",
-    "第三章 一元函数积分学及其应用.md",
-    "Pasted image 20260811102115.png",
-    "第二章 一元函数微分学及其应用.md",
-    "Pasted image 20260811101541.png",
-    "Pasted image 20260811095619.png",
-    "极值点 复盘.md",
-    "pics/Pasted image 20260806052102.png",
+    "为什么散度的定义是三个偏导之和.md",
+    "如何利用高斯公式解曲面积分.md",
+    "斜渐近线.md",
     "利用麦克劳林展开求高阶导.md",
+    "工具箱第0层/五个常用麦克劳林展开式.md",
+    "奇函数+偶函数.md",
+    "第二章 一元函数微分学及其应用.md",
+    "覆盖法.md",
+    "pics/Pasted image 20260811095619.png",
+    "pics/Pasted image 20260811151242.png",
+    "积分题目复盘.md",
+    "如何利用“部分分式分解”来解有理函数积分问题.md",
+    "第三章 一元函数积分学及其应用.md",
+    "-a的绝对值=a的绝对值.md",
+    "pics/Pasted image 20260811215954.png",
+    "pics/Pasted image 20260811214836.png",
+    "极值点 复盘.md",
+    "思想by_pika/要不要刷题.md",
+    "数学一分值分布/数学一各考点分值情况.png",
+    "分部积分法.md",
+    "反常积分的计算.md",
+    "pics/Pasted image 20260811102115.png",
+    "pics/Pasted image 20260811101541.png",
+    "pics/Pasted image 20260806052102.png",
     "pics/Pasted image 20260810171950.png",
     "利用等价无穷小求极限.md",
-    "工具箱第0层/五个常用麦克劳林展开式.md",
-    "斜渐近线.md",
     "七种未定式.md",
     "曲率.md",
-    "思想by_pika/要不要刷题.md",
     "因式分解.md",
     "pics/Pasted image 20260810162746.png",
-    "pics/Pasted image 20260810162719.png",
-    "数学一分值分布/数学一各考点分值情况.png",
-    "pics/Pasted image 20260810160601.png",
-    "pics/Pasted image 20260810160539.png",
     "一个点的信息 ≠ 一个邻域的信息.md",
     "如何判断分段函数在分段点的极限、连续性和可导性.md",
     "思想by_pika/遇到不理解的定理尝试问一些问题.md",
     "思想by_pika/ask stupid questions.md",
     "思想by_pika/阅读专业书的五个步骤.md",
     "思想by_pika/数学训练中每个步骤的意义.md",
-    "思想by_pika/数学学习最核心的秘密是什么？by pika.md",
-    "思想by_pika/数学实践.md",
-    "思想by_pika/数学老是学了后面忘了前面怎么办by pika.md",
-    "思想by_pika/数学的特点.md",
-    "思想by_pika/数学笔记的基本原则.md",
-    "思想by_pika/如何利用tricki写作来积累数学工具箱.md",
-    "思想by_pika/解决问题的思路.md",
     "微分方程.md.tmp.2004.cb70723b0ef6",
     "Base.base"
   ]
