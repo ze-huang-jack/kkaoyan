@@ -142,9 +142,23 @@
               "icon": "lucide-file",
               "title": "第二章 一元函数微分学及其应用"
             }
+          },
+          {
+            "id": "6a08b261a3adc5e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "第三章 一元函数积分学及其应用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第三章 一元函数积分学及其应用"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -222,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pics/Pasted image 20260806052102.png",
+                "file": "第二章 一元函数微分学及其应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +298,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pics/Pasted image 20260806052102.png",
+                "file": "第二章 一元函数微分学及其应用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -322,29 +336,30 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "1667e0c530e87e90",
+  "active": "adc19812d7667f57",
   "lastOpenFiles": [
+    "积分题目复盘.md",
+    "第三章 一元函数积分学及其应用.md",
+    "Pasted image 20260811102115.png",
+    "第二章 一元函数微分学及其应用.md",
+    "Pasted image 20260811101541.png",
+    "Pasted image 20260811095619.png",
+    "极值点 复盘.md",
+    "pics/Pasted image 20260806052102.png",
     "利用麦克劳林展开求高阶导.md",
     "pics/Pasted image 20260810171950.png",
     "利用等价无穷小求极限.md",
     "工具箱第0层/五个常用麦克劳林展开式.md",
     "斜渐近线.md",
     "七种未定式.md",
-    "第二章 一元函数微分学及其应用.md",
     "曲率.md",
-    "极值点 复盘.md",
     "思想by_pika/要不要刷题.md",
-    "积分题目复盘.md",
     "因式分解.md",
     "pics/Pasted image 20260810162746.png",
     "pics/Pasted image 20260810162719.png",
     "数学一分值分布/数学一各考点分值情况.png",
     "pics/Pasted image 20260810160601.png",
     "pics/Pasted image 20260810160539.png",
-    "pics/Pasted image 20260810160525.png",
-    "pics/Pasted image 20260810154226.png",
-    "pics/Pasted image 20260810154224.png",
-    "pics/Pasted image 20260810154150.png",
     "一个点的信息 ≠ 一个邻域的信息.md",
     "如何判断分段函数在分段点的极限、连续性和可导性.md",
     "思想by_pika/遇到不理解的定理尝试问一些问题.md",
@@ -358,7 +373,6 @@
     "思想by_pika/数学笔记的基本原则.md",
     "思想by_pika/如何利用tricki写作来积累数学工具箱.md",
     "思想by_pika/解决问题的思路.md",
-    "思想by_pika/破局之道在局外.md",
     "微分方程.md.tmp.2004.cb70723b0ef6",
     "Base.base"
   ]
