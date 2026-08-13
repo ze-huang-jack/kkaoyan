@@ -1,0 +1,25 @@
+{
+  "id": "conv-1786654455131-edyi4tz2x",
+  "providerId": "claude",
+  "title": "Review trig mnemonic and create study notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786654455135,
+  "updatedAt": 1786654571331,
+  "lastResponseAt": 1786654571331,
+  "sessionId": "53c0e993-8650-430c-a591-b17a400b720d",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "53c0e993-8650-430c-a591-b17a400b720d"
+  },
+  "currentNote": "奇变偶不变 符号看象限.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 914,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 54528,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 55442,
+    "percentage": 6
+  }
+}
