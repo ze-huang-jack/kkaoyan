@@ -4,12 +4,14 @@
   "title": "Fix LaTeX formula rendering",
   "titleGenerationStatus": "success",
   "createdAt": 1785230764965,
-  "updatedAt": 1785334943795,
+  "updatedAt": 1786656707978,
   "lastResponseAt": 1785334943795,
-  "sessionId": "c8ecc262-a704-4f1c-9513-496b735ad5df",
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "c8ecc262-a704-4f1c-9513-496b735ad5df"
+    "previousProviderSessionIds": [
+      "c8ecc262-a704-4f1c-9513-496b735ad5df"
+    ]
   },
   "currentNote": "点到直线的距离公式.md",
   "usage": {
