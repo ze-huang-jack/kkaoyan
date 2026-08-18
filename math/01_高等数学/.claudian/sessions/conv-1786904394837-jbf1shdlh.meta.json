@@ -1,0 +1,346 @@
+{
+  "id": "conv-1786904394837-jbf1shdlh",
+  "providerId": "claude",
+  "title": "Troubleshoot Obsidian reading view layout and TOC",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786904394846,
+  "updatedAt": 1786904866929,
+  "lastResponseAt": 1786904866929,
+  "sessionId": "2f50b793-70b2-4cdc-ab3c-28c6bed6364b",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "2f50b793-70b2-4cdc-ab3c-28c6bed6364b",
+    "subagentData": {
+      "call_01_WQ88f62UbaWvNt4V7HNe7854": {
+        "id": "call_01_WQ88f62UbaWvNt4V7HNe7854",
+        "description": "调查库内数学公式写法与配置",
+        "prompt": "调查 Obsidian 库 E:\\kaoyan\\math\\01_高等数学（这是库根目录，请用绝对路径访问）。搜索广度：medium。目的：为一个 Markdown 排版 bug 收集证据。请调查以下内容并报告：\n\n1. **数学公式写法惯例**：用 Grep 搜索库内所有 .md 文件中 `$$` 的出现情况。特别关注：\n   - 是否有其他笔记使用了「文本行末跟 `$$` 开启公式块、行首 `$$` 后紧跟文本」的写法（例如正则 `[^$]\\$\\$$` 匹配行尾 `$$`，以及 `^\\$\\$[^$]` 匹配行首 `$$` 后跟非 `$` 字符的写法）\n   - 是否有其他笔记在列表项（`-` 开头行）内使用行内 `$$...$$`\n   - 找出 3-5 个使用 `$$` 公式块的代表性笔记路径，并摘录它们的具体写法（含上下文几行），供对比\n2. **`.obsidian` 配置**：检查 E:\\kaoyan\\math\\01_高等数学\\.obsidian 目录是否存在，如果存在：\n   - 读取 community-plugins.json（列出启用的插件）\n   - 检查是否存在 snippets 目录及 CSS 片段内容（可能与排版有关）\n   - 读取 appearance.json（主题相关）\n   - 列出 .obsidian 目录下其他关键文件（如 core-plugins.json、app.json）\n3. **同类标题问题**：搜索库内是否有其他笔记在 `$$` 公式块之后紧跟 `###` 标题的写法（正则 `\\$\\$[\\s\\S]{0,80}?### ` 或类似），摘录 2-3 例。\n\n报告请用中文，包含具体文件路径和原文摘录（保留原始字符）。不要修改任何文件。",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_iSwHV8jXEjX8s0NgJ8fB0729",
+            "name": "Grep",
+            "input": {
+              "pattern": "\\$\\$",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "glob": "*.md",
+              "output_mode": "count",
+              "head_limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "-a的绝对值=a的绝对值.md:2\nsec x 的 n 次方怎么求.md:22\n一元积分复盘.md:8\n一个点的信息 ≠ 一个邻域的信息.md:30\n七种未定式.md:2\n一重积分计算.md:43\n三种解法.md:8\n为什么散度的定义是三个偏导之和.md:2\n三步走处理第一类曲线积分.md:10\n二重积分计算.md:28\n偶函数.md:8\n万能代换求三角函数有理式.md:12\n二重积分的应用.md:7\n凹函数凸函数.md:4\n分部积分法.md:18\n利用分部积分计算反常积分.md:4\n利用等价无穷小求极限.md:8\n利用洛必达法则求函数极限.md:4\n利用麦克劳林展开求高阶导.md:15\n华莱士公式.md:14\n反导数的求导法则.md:2\n反三角函数恒等式.md:44\n反常积分的计算.md:38\n回文多项式.md:6\n反射和轮换对称性.md:20\n因式分解.md:2\n反常积分的敛散性.md:20\n圆的参数化方程.md:6\n奇变偶不变 符号看象限.md:12\n如何利用“部分分式分解”来解有理函数积分问题.md:22\n基础公式\\牛顿莱布尼茨公式.md:3\n如何判断分段函数在分段点的极限、连续性和可导性.md:30\n基础公式\\降幂公式.md:6\n基础公式\\辅助角公式.md:4\n如何利用高斯公式解曲面积分.md:8\n如何找一个点关于区间中点的镜像点.md:10\n如何求二元函数的极值点.md:2\n如何理解第一类曲面积分的微元.md:18\n如何利用二重积分来解决第一类曲面积分.md:3\n对称性.md:5\n平面曲线积分与路径无关.md:6\n工具箱第0层\\五个常用麦克劳林展开式.md:64\n常用的导数.md:6\n截出的曲面的方程.md:2\n微分方程.md:56\n工具箱第0层\\p级数.md:1\n工具箱第0层\\斯托克斯公式.md:6\n工具箱第0层\\nabla算子.md:7\n拉格朗日中值定理.md:4\n工具箱第1层\\如何利用积分判别法判断级数敛散性.md:4\n对称性：三维.md:13\n曲面积分.md:18\n无穷级数.md:26\n曲线积分.md:48\n斜渐近线.md:39\n极值点 复盘.md:2\n未命名.md:4\n柯西-施瓦茨不等式（Cauchy-Schwarz）.md:5\n极限复盘.md:8\n格林公式.md:36\n格林公式挖洞.md:7\n格林公式求平面图形面积.md:15\n格林公式补线.md:2\n椭圆参数化方程.md:2\n椭圆的参数化方程.md:6\n求函数极值点.md:6\n求收敛半径的两种方法.md:24\n泰勒展开.md:4\n点到平面的距离公式.md:4\n积分公式.md:12\n积分的统一框架.md:23\n积分统一的框架概述.md:6\n积分题目复盘.md:98\n第三章 一元函数积分学及其应用.md:18\n第三章一元积分学.md:10\n经典的极限.md:8\n绝对值函数的不可导性.md:4\n通量为什么一定要这么定义.md:9\n重根.md:3\n题目.md:7\n\nFound 1133 total occurrences across 80 files."
+          },
+          {
+            "id": "call_01_swOj3imCcC8TJy5PNDmB9206",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"E:/kaoyan/math/01_高等数学/.obsidian\" 2>/dev/null; echo \"---\"; ls \"E:/kaoyan/math/01_高等数学\" | head -50",
+              "description": "List .obsidian directory and vault root"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 46\ndrwxr-xr-x 1 suqiu 197609    0  8月  8 01:32 .\ndrwxr-xr-x 1 suqiu 197609    0  8月 17 01:53 ..\n-rw-r--r-- 1 suqiu 197609   56  8月 16 23:50 app.json\n-rw-r--r-- 1 suqiu 197609   95  8月 16 23:50 appearance.json\n-rw-r--r-- 1 suqiu 197609   46  8月 16 23:50 community-plugins.json\n-rw-r--r-- 1 suqiu 197609  696  8月 16 23:50 core-plugins.json\n-rw-r--r-- 1 suqiu 197609  514  8月  8 01:40 graph.json\ndrwxr-xr-x 1 suqiu 197609    0  8月  5 21:22 plugins\ndrwxr-xr-x 1 suqiu 197609    0  8月  5 21:22 themes\n-rw-r--r-- 1 suqiu 197609  150  7月 18 21:21 types.json\n-rw-r--r-- 1 suqiu 197609 7956  8月 17 02:20 workspace.json\n---\n2026-7-28.md\n-a的绝对值=a的绝对值.md\nBase.base\nepsilon(x) and o(x).md\nPasted image 20260817012027.png\nPasted image 20260817013730.png\nPasted image 20260817015349.png\npics\nsec x 的 n 次方怎么求.md\n凹函数凸函数.md\n常用的导数.md\n第二章 一元函数微分学及其应用.md\n第三章 一元函数积分学及其应用.md\n第三章一元积分学.md\n点到平面的距离公式.md\n对称性.md\n对称性：三维.md\n二重积分的应用.md\n二重积分计算.md\n反常积分的计算.md\n反常积分的敛散性.md\n反导数的求导法则.md\n反三角函数恒等式.md\n反射和轮换对称性.md\n分部积分法.md\n复连通区域.md\n覆盖法.md\n格林公式.md\n格林公式补线.md\n格林公式的应用.md\n格林公式求平面图形面积.md\n格林公式挖洞.md\n工具箱第0层\n工具箱第1层\n关于积分的汇总和记录总结.md\n关于积分计算的对称性的总结.md\n关于一个二重积分计算的总结.md\n弧长和扇形的计算公式.md\n华莱士公式.md\n化为对坐标x或y的定积分.md\n回文多项式.md\n积分的统一框架.md\n积分公式.md\n积分题目复盘.md\n积分统一的框架概述.md\n基本积分表.md\n基础公式\n级数例题.md\n极限存档by chatgpt.md\n极限复盘.md"
+          },
+          {
+            "id": "call_00_3zRiDxgBqcum4C3jK8V56671",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "[^$]\\$\\$$",
+              "head_limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "一重积分计算.md:17:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\lim_{\\lambda \\to 0} \\sum_{i=1}^{n} f(\\xi_i) \\Delta x_i$$\n一重积分计算.md:44:> $$\\int_a^b f(x)\\,\\mathrm{d}x = F(b) - F(a) = \\Big[F(x)\\Big]_a^b$$\n一重积分计算.md:56:$$\\int f[\\varphi(x)]\\,\\varphi'(x)\\,\\mathrm{d}x = \\int f(u)\\,\\mathrm{d}u \\quad (u = \\varphi(x))$$\n一重积分计算.md:76:$$\\int u\\,\\mathrm{d}v = uv - \\int v\\,\\mathrm{d}u$$\n一重积分计算.md:109:$$\\frac{P(x)}{Q(x)} = \\text{多项式} + \\sum\\frac{A}{(x-a)^k} + \\sum\\frac{Bx+C}{(x^2+px+q)^m}$$\n一重积分计算.md:123:> $$\\sin x = \\frac{2t}{1+t^2},\\quad \\cos x = \\frac{1-t^2}{1+t^2},\\quad \\mathrm{d}x = \\frac{2}{1+t^2}\\mathrm{d}t$$\n一重积分计算.md:138:$$\\int \\sin^n x\\,\\mathrm{d}x,\\; \\int \\cos^n x\\,\\mathrm{d}x$$\n一重积分计算.md:142:$$\\int \\tan^n x\\,\\mathrm{d}x = \\frac{\\tan^{n-1}x}{n-1} - \\int \\tan^{n-2}x\\,\\mathrm{d}x$$\n一重积分计算.md:160:$$\\int_a^b f(x)\\,\\mathrm{d}x \\xrightarrow{x=\\varphi(t)} \\int_{\\alpha}^{\\beta} f[\\varphi(t)]\\,\\varphi'(t)\\,\\mathrm{d}t$$\n一重积分计算.md:166:$$\\int_a^b u\\,\\mathrm{d}v = \\Big[uv\\Big]_a^b - \\int_a^b v\\,\\mathrm{d}u$$\n一重积分计算.md:187:$$\\int_a^{a+T} f(x)\\,\\mathrm{d}x = \\int_0^T f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:193:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\int_a^b f(a+b-x)\\,\\mathrm{d}x$$\n一重积分计算.md:197:$$\\int_0^{\\frac{\\pi}{2}} f(\\sin x)\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} f(\\cos x)\\,\\mathrm{d}x$$\n一重积分计算.md:199:$$\\int_0^\\pi x f(\\sin x)\\,\\mathrm{d}x = \\frac{\\pi}{2}\\int_0^\\pi f(\\sin x)\\,\\mathrm{d}x$$\n一重积分计算.md:206:\\end{cases}$$\n一重积分计算.md:214:$$\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x = \\lim_{b \\to +\\infty} \\int_a^b f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:221:> \\end{cases}$$\n一重积分计算.md:227:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\lim_{\\varepsilon \\to 0^+} \\int_{a+\\varepsilon}^b f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:234:> \\end{cases}$$\n一重积分计算.md:249:$$\\Gamma(s) = \\int_0^{+\\infty} x^{s-1}e^{-x}\\,\\mathrm{d}x \\quad (s>0)$$\n一重积分计算.md:270:> $$\n一重积分计算.md:272:> $$\n一重积分计算.md:279:> $$\n一重积分计算.md:281:> $$\n一重积分计算.md:283:> $$= -\\int_1^0 (1-u^2)\\,\\mathrm{d}u = \\int_0^1 (1-u^2)\\,\\mathrm{d}u = \\left[u - \\frac{u^3}{3}\\right]_0^1 = \\frac{2}{3}$$\n一重积分计算.md:296:> $$\\int x e^x\\,\\mathrm{d}x = x e^x - \\int e^x\\,\\mathrm{d}x = x e^x - e^x + C = e^x(x-1) + C$$\n一重积分计算.md:305:> $$\n一重积分计算.md:312:> $$\n一重积分计算.md:322:> $$\n一重积分计算.md:324:> $$\n一重积分计算.md:326:> $$\n一重积分计算.md:328:> $$\n一重积分计算.md:341:> $$\n一重积分计算.md:347:> $$\n一重积分计算.md:361:> $$\\int_{-\\pi}^{\\pi} x^2 \\sin x\\,\\mathrm{d}x = 0$$\n一重积分计算.md:368:> $$\\int_{-2}^{2} \\frac{|x|}{1+x^2}\\,\\mathrm{d}x + \\int_{-2}^{2} \\frac{x}{1+x^2}\\,\\mathrm{d}x$$\n一重积分计算.md:386:> $$\n一重积分计算.md:393:> $$\n一重积分计算.md:405:> $$\n一重积分计算.md:407:> $$\n\n[Showing results with pagination = limit: 40]"
+          },
+          {
+            "id": "call_01_QbsZPwTu8NjSwUJMuSV64597",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "^\\$\\$[^$]",
+              "head_limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "万能代换求三角函数有理式.md:17:$$\\sin x = 2 \\sin \\frac{x}{2} \\cos \\frac{x}{2} = \\frac{2 \\sin \\frac{x}{2} \\cos \\frac{x}{2}}{\\sin^2 \\frac{x}{2} + \\cos^2 \\frac{x}{2}}$$\n万能代换求三角函数有理式.md:27:$$\\frac{x}{2} = \\arctan t \\implies x = 2 \\arctan t$$\n万能代换求三角函数有理式.md:29:$$dx = \\frac{2}{1 + t^2} \\, dt$$\n一重积分计算.md:17:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\lim_{\\lambda \\to 0} \\sum_{i=1}^{n} f(\\xi_i) \\Delta x_i$$\n一重积分计算.md:56:$$\\int f[\\varphi(x)]\\,\\varphi'(x)\\,\\mathrm{d}x = \\int f(u)\\,\\mathrm{d}u \\quad (u = \\varphi(x))$$\n一重积分计算.md:76:$$\\int u\\,\\mathrm{d}v = uv - \\int v\\,\\mathrm{d}u$$\n一重积分计算.md:109:$$\\frac{P(x)}{Q(x)} = \\text{多项式} + \\sum\\frac{A}{(x-a)^k} + \\sum\\frac{Bx+C}{(x^2+px+q)^m}$$\n一重积分计算.md:138:$$\\int \\sin^n x\\,\\mathrm{d}x,\\; \\int \\cos^n x\\,\\mathrm{d}x$$\n一重积分计算.md:142:$$\\int \\tan^n x\\,\\mathrm{d}x = \\frac{\\tan^{n-1}x}{n-1} - \\int \\tan^{n-2}x\\,\\mathrm{d}x$$\n一重积分计算.md:160:$$\\int_a^b f(x)\\,\\mathrm{d}x \\xrightarrow{x=\\varphi(t)} \\int_{\\alpha}^{\\beta} f[\\varphi(t)]\\,\\varphi'(t)\\,\\mathrm{d}t$$\n一重积分计算.md:166:$$\\int_a^b u\\,\\mathrm{d}v = \\Big[uv\\Big]_a^b - \\int_a^b v\\,\\mathrm{d}u$$\n一重积分计算.md:187:$$\\int_a^{a+T} f(x)\\,\\mathrm{d}x = \\int_0^T f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:193:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\int_a^b f(a+b-x)\\,\\mathrm{d}x$$\n一重积分计算.md:197:$$\\int_0^{\\frac{\\pi}{2}} f(\\sin x)\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} f(\\cos x)\\,\\mathrm{d}x$$\n一重积分计算.md:199:$$\\int_0^\\pi x f(\\sin x)\\,\\mathrm{d}x = \\frac{\\pi}{2}\\int_0^\\pi f(\\sin x)\\,\\mathrm{d}x$$\n一重积分计算.md:203:$$\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} \\cos^n x\\,\\mathrm{d}x = \\begin{cases}\n一重积分计算.md:214:$$\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x = \\lim_{b \\to +\\infty} \\int_a^b f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:227:$$\\int_a^b f(x)\\,\\mathrm{d}x = \\lim_{\\varepsilon \\to 0^+} \\int_{a+\\varepsilon}^b f(x)\\,\\mathrm{d}x$$\n一重积分计算.md:249:$$\\Gamma(s) = \\int_0^{+\\infty} x^{s-1}e^{-x}\\,\\mathrm{d}x \\quad (s>0)$$\n二重积分的应用.md:30:$$\\bar{x} = \\frac{\\iint_Dx\\times\\mu\\times dS}{\\iint_D\\mu\\times dS}$$\n二重积分的应用.md:32:$$\\bar{y} = \\frac{\\iint_Dy\\times\\mu\\times dS}{\\iint_D\\mu\\times dS}$$\n二重积分的应用.md:35:$$\\bar{z} = \\frac{\\iiint_Dz\\times\\mu\\times dV}{\\iiint_D\\mu\\times dV}$$\n二重积分计算.md:27:$$D = \\{(x,y) \\mid a \\le x \\le b,\\ \\varphi_1(x) \\le y \\le \\varphi_2(x)\\}$$\n二重积分计算.md:29:$$\\iint\\limits_D f(x,y)\\,\\mathrm{d}\\sigma = \\int_a^b \\mathrm{d}x \\int_{\\varphi_1(x)}^{\\varphi_2(x)} f(x,y)\\,\\mathrm{d}y$$\n二重积分计算.md:34:$$D = \\{(x,y) \\mid c \\le y \\le d,\\ \\psi_1(y) \\le x \\le \\psi_2(y)\\}$$\n二重积分计算.md:36:$$\\iint\\limits_D f(x,y)\\,\\mathrm{d}\\sigma = \\int_c^d \\mathrm{d}y \\int_{\\psi_1(y)}^{\\psi_2(y)} f(x,y)\\,\\mathrm{d}x$$\n二重积分计算.md:59:$$\\iint\\limits_D f(x,y)\\,\\mathrm{d}\\sigma = \\iint\\limits_D f(r\\cos\\theta, r\\sin\\theta)\\, r\\,\\mathrm{d}r\\mathrm{d}\\theta$$\n二重积分计算.md:106:$$\\iint\\limits_D f(x,y)\\,\\mathrm{d}x\\mathrm{d}y = \\iint\\limits_{D'} f\\big(x(u,v), y(u,v)\\big)\\, |J|\\,\\mathrm{d}u\\mathrm{d}v$$\n二重积分计算.md:109:$$J = \\frac{\\partial(x,y)}{\\partial(u,v)} = \\begin{vmatrix}\n二重积分计算.md:280:$$\\int_0^{2\\pi} \\sin^2\\theta\\,\\mathrm{d}\\theta = \\int_0^{2\\pi} \\cos^2\\theta\\,\\mathrm{d}\\theta = \\pi$$\n二重积分计算.md:281:$$\\int_0^{2\\pi} \\sin\\theta\\,\\mathrm{d}\\theta = \\int_0^{2\\pi} \\cos\\theta\\,\\mathrm{d}\\theta = 0$$\n二重积分计算.md:284:$$\\int_{-\\infty}^{+\\infty} e^{-x^2}\\,\\mathrm{d}x = \\sqrt{\\pi}$$\n二重积分计算.md:287:$$S = \\iint\\limits_{x^2+y^2 \\le R^2} 1\\,\\mathrm{d}\\sigma = \\pi R^2$$\n三种解法.md:3:$$\\int_C P\\,\\mathrm{d}x + Q\\,\\mathrm{d}y$$\n三种解法.md:33:$$y - 1 = \\frac{3-1}{2-1}(x-1) \\implies y = 2x - 1$$\n三种解法.md:37:$$\\mathrm{d}y = 2\\,\\mathrm{d}x$$\n三种解法.md:41:$$\\begin{aligned} \\int_1^2 (x + (2x - 1))\\,\\mathrm{d}x + (x - (2x - 1))\\cdot(2\\,\\mathrm{d}x) &= \\int_1^2 (3x - 1 + 2(-x + 1))\\,\\mathrm{d}x \\\\ &= \\int_1^2 (x + 1)\\,\\mathrm{d}x \\\\ &= \\left[ \\frac{1}{2}x^2 + x \\right]_1^2 \\\\ &= (2 + 2) - \\left(\\frac{1}{2} + 1\\right) = \\frac{5}{2} \\end{aligned}$$\n三种解法.md:53:$$\\begin{aligned} \\text{原式} &= \\int_{x=1}^2 (x + 1)\\,\\mathrm{d}x + \\int_{y=1}^3 (2 - y)\\,\\mathrm{d}y \\\\ &= \\left[ \\frac{1}{2}x^2 + x \\right]_1^2 + \\left[ 2y - \\frac{1}{2}y^2 \\right]_1^3 \\\\ &= \\frac{5}{2} + \\left( \\left(6 - \\frac{9}{2}\\right) - \\left(2 - \\frac{1}{2}\\right) \\right) \\\\ &= \\frac{5}{2} + 0 = \\frac{5}{2} \\end{aligned}$$\n三种解法.md:59:$$(x+y)\\,\\mathrm{d}x + (x-y)\\,\\mathrm{d}y = x\\,\\mathrm{d}x + (y\\,\\mathrm{d}x + x\\,\\mathrm{d}y) - y\\,\\mathrm{d}y = \\mathrm{d}\\left(\\frac{1}{2}x^2 + xy - \\frac{1}{2}y^2\\right)$$\n三种解法.md:63:$$\\int_{(1,1)}^{(2,3)} \\mathrm{d}u = u(2,3) - u(1,1)$$\n\n[Showing results with pagination = limit: 40]"
+          },
+          {
+            "id": "call_02_qgsmVmdygSuf4vN0RlCU8276",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "^-\\s.*\\$\\$",
+              "head_limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "极限复盘.md:13:- 先提取x，凑出 $$\\ln(A+\\alpha)-\\ln A$$就有$$\\ln\\left( 1+\\frac{\\alpha}{A} \\right) \\sim \\frac{\\alpha}{A}$$$\\frac{\\alpha}{A}$是无穷小。注意这里 $\\alpha$ **可以为负**。即$$\\ln(A+\\alpha)-\\ln A \\sim \\frac{\\alpha}{A}$$\n极限复盘.md:14:- 看到**陌生**的$$\\ln(A+无穷小量)$$会把A化为1\n积分公式.md:27:- 一定是小的x-a 除以 大的 x+a. 因为这个是由$$\\frac{1}{x-a}-\\frac{1}{x+a}$$来的"
+          },
+          {
+            "id": "call_03_L5OtyW80FhmGv8Mtvhab6488",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "\\$\\$[\\s\\S]{0,80}?### ",
+              "head_limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No matches found"
+          },
+          {
+            "id": "call_00_el6IUvclJ4SkcufWaUII3271",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "head_limit": 60,
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "^\\$\\$[^$\\n].*[^$]$"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "一重积分计算.md:203:$$\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} \\cos^n x\\,\\mathrm{d}x = \\begin{cases}\n二重积分计算.md:109:$$J = \\frac{\\partial(x,y)}{\\partial(u,v)} = \\begin{vmatrix}\n反常积分的计算.md:141:$$\\int_1^{+\\infty} \\frac{1}{x^p}\\,\\mathrm{d}x \\quad \\begin{cases}\n反常积分的计算.md:148:$$\\int_0^1 \\frac{1}{x^p}\\,\\mathrm{d}x \\quad \\begin{cases}\n反常积分的敛散性.md:32:$$就是收敛的\n反常积分的敛散性.md:68:$$是收敛的\n反常积分的敛散性.md:73:$$是收敛的，求a的取值范围\n如何求二元函数的极值点.md:19:$$的极值\n斜渐近线.md:108:$$极限存在，那么\n斜渐近线.md:112:$$一定等于0\n斜渐近线.md:125:$$的渐近线的条数（4条）\n斜渐近线.md:139:$$的全部渐近线\n未命名.md:8:$$的麦克劳林展开式的\n极限复盘.md:23:$$的斜渐近线方程为\n极限复盘.md:36:$$即可\n曲面积分.md:108:$$\\text{rot} \\vec{F} = \\nabla \\times \\vec{F} = \n曲面积分.md:116:$$\\oint_{\\Gamma} P dx + Q dy + R dz = \\iint_{\\Sigma} \n格林公式求平面图形面积.md:31:$$x=x(t),\\: y=y(t),\n求收敛半径的两种方法.md:127:$$\\sum_{n=1}^{\\infty} (\\frac{3+(-1)^n}{4})^n $$是发散的\n积分的统一框架.md:134:$$  \n积分的统一框架.md:138:$$  \n积分的统一框架.md:162:$$  \n积分的统一框架.md:166:$$  \n积分的统一框架.md:180:$$  \n积分的统一框架.md:184:$$  \n积分的统一框架.md:188:$$  \n积分的统一框架.md:219:$$  \n积分的统一框架.md:227:$$  \n积分统一的框架概述.md:63:$$  \n积分统一的框架概述.md:83:$$  \n积分统一的框架概述.md:118:$$  \n第三章一元积分学.md:14:$$的形式, 即 “函数 x 其导数”，要想到复合函数求导"
+          },
+          {
+            "id": "call_01_vOQg6822AbstxlDk9JtC7679",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "head_limit": 40,
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "\\S\\s+\\$\\$$"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "一重积分计算.md:270:> $$\n一重积分计算.md:272:> $$\n一重积分计算.md:279:> $$\n一重积分计算.md:281:> $$\n一重积分计算.md:305:> $$\n一重积分计算.md:312:> $$\n一重积分计算.md:322:> $$\n一重积分计算.md:324:> $$\n一重积分计算.md:326:> $$\n一重积分计算.md:328:> $$\n一重积分计算.md:341:> $$\n一重积分计算.md:347:> $$\n一重积分计算.md:386:> $$\n一重积分计算.md:393:> $$\n一重积分计算.md:405:> $$\n一重积分计算.md:407:> $$\n二重积分计算.md:128:> $$\n二重积分计算.md:135:> $$\n二重积分计算.md:167:> $$\n二重积分计算.md:173:> $$\n二重积分计算.md:181:> $$\n二重积分计算.md:185:> $$\n反常积分的计算.md:251:> > $$\n反常积分的计算.md:253:> > $$\n反常积分的计算.md:281:> $$\n反常积分的计算.md:283:> $$\n反常积分的计算.md:291:> $$\n反常积分的计算.md:293:> $$\n反常积分的计算.md:302:> $$\n反常积分的计算.md:308:> $$\n反常积分的计算.md:319:> $$\n反常积分的计算.md:321:> $$\n反常积分的计算.md:333:> $$\n反常积分的计算.md:341:> $$\n反常积分的计算.md:353:> $$\n反常积分的计算.md:355:> $$\n反常积分的计算.md:367:> $$\n反常积分的计算.md:369:> $$\n反常积分的计算.md:381:> $$\n反常积分的计算.md:383:> $$\n\n[Showing results with pagination = limit: 40]"
+          },
+          {
+            "id": "call_02_J2edgrr9tHc7ElUgsPD96436",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "head_limit": 30,
+              "multiline": true,
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "\\$\\$[^\\n]{0,40}\\n[^\\n]*### "
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "一元积分复盘.md:8:$$\n一元积分复盘.md:9:### idea:\n极限复盘.md:11:$$\n极限复盘.md:12:### 背后的idea\n极限复盘.md:14:- 看到**陌生**的$$\\ln(A+无穷小量)$$会把A化为1\n极限复盘.md:15:### 变体\n第三章一元积分学.md:21:$$\n第三章一元积分学.md:22:### 做题的线索\n第三章一元积分学.md:33:$$\n第三章一元积分学.md:34:### 做题的线索"
+          },
+          {
+            "id": "call_03_NbVPifHfwoiDzxe58O842847",
+            "name": "Bash",
+            "input": {
+              "command": "echo \"=== app.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/app.json\"; echo; echo \"=== appearance.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/appearance.json\"; echo; echo \"=== community-plugins.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/community-plugins.json\"; echo; echo \"=== core-plugins.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/core-plugins.json\"; echo; echo \"=== graph.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/graph.json\"; echo; echo \"=== types.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/types.json\"; echo; echo \"=== plugins dir ===\"; ls -R \"E:/kaoyan/math/01_高等数学/.obsidian/plugins\"; echo \"=== themes dir ===\"; ls -R \"E:/kaoyan/math/01_高等数学/.obsidian/themes\"; echo \"=== snippets? ===\"; ls \"E:/kaoyan/math/01_高等数学/.obsidian/snippets\" 2>&1",
+              "description": "Read all .obsidian config files and list subdirectories"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "Exit code 2\n=== app.json ===\n{\n  \"alwaysUpdateLinks\": true,\n  \"promptDelete\": false\n}\n=== appearance.json ===\n{\n  \"cssTheme\": \"\",\n  \"theme\": \"moonstone\",\n  \"baseFontSize\": 18,\n  \"monospaceFontFamily\": \"\"\n}\n=== community-plugins.json ===\n[\n  \"realclaudian\",\n  \"obsidian-latex-suite\"\n]\n=== core-plugins.json ===\n{\n  \"file-explorer\": true,\n  \"global-search\": true,\n  \"switcher\": true,\n  \"graph\": true,\n  \"backlink\": true,\n  \"canvas\": true,\n  \"outgoing-link\": true,\n  \"tag-pane\": true,\n  \"footnotes\": false,\n  \"properties\": true,\n  \"page-preview\": true,\n  \"daily-notes\": true,\n  \"templates\": true,\n  \"note-composer\": true,\n  \"command-palette\": true,\n  \"slash-command\": false,\n  \"editor-status\": true,\n  \"bookmarks\": true,\n  \"markdown-importer\": false,\n  \"zk-prefixer\": false,\n  \"random-note\": false,\n  \"outline\": true,\n  \"word-count\": true,\n  \"slides\": false,\n  \"audio-recorder\": false,\n  \"workspaces\": false,\n  \"file-recovery\": true,\n  \"publish\": false,\n  \"sync\": true,\n  \"bases\": true,\n  \"webviewer\": false\n}\n=== graph.json ===\n{\n  \"collapse-filter\": false,\n  \"search\": \"\",\n  \"showTags\": false,\n  \"showAttachments\": false,\n  \"hideUnresolved\": false,\n  \"showOrphans\": false,\n  \"collapse-color-groups\": true,\n  \"colorGroups\": [],\n  \"collapse-display\": false,\n  \"showArrow\": true,\n  \"textFadeMultiplier\": 0,\n  \"nodeSizeMultiplier\": 1,\n  \"lineSizeMultiplier\": 1,\n  \"collapse-forces\": true,\n  \"centerStrength\": 0.518713248970312,\n  \"repelStrength\": 10,\n  \"linkStrength\": 1,\n  \"linkDistance\": 250,\n  \"scale\": 0.43931995991788514,\n  \"close\": false\n}\n=== types.json ===\n{\n  \"types\": {\n    \"aliases\": \"aliases\",\n    \"cssclasses\": \"multitext\",\n    \"tags\": \"tags\",\n    \"updated\": \"datetime\",\n    \"created\": \"datetime\"\n  }\n}\n=== plugins dir ===\nE:/kaoyan/math/01_高等数学/.obsidian/plugins:\nobsidian-latex-suite\nrealclaudian\n\nE:/kaoyan/math/01_高等数学/.obsidian/plugins/obsidian-latex-suite:\nmain.js\nmanifest.json\nstyles.css\n\nE:/kaoyan/math/01_高等数学/.obsidian/plugins/realclaudian:\ndata.json\nmain.js\nmanifest.json\nstyles.css\n=== themes dir ===\nE:/kaoyan/math/01_高等数学/.obsidian/themes:\nMinimal\n\nE:/kaoyan/math/01_高等数学/.obsidian/themes/Minimal:\nmanifest.json\ntheme.css\n=== snippets? ===\nls: cannot access 'E:/kaoyan/math/01_高等数学/.obsidian/snippets': No such file or directory"
+          },
+          {
+            "id": "call_00_MpK6mOtEmWLwYhalK6Nw4068",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "head_limit": 30,
+              "output_mode": "content",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "[一-鿿]\\$\\$$"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "利用洛必达法则求函数极限.md:12:分子分母同时求导后得到$$\n利用麦克劳林展开求高阶导.md:32:换句话说$$\n利用麦克劳林展开求高阶导.md:41:设$$\n反常积分的敛散性.md:2:有一反常积分$$\n反常积分的敛散性.md:66:a=？使得$$\n如何利用“部分分式分解”来解有理函数积分问题.md:96:遇到被积函数里有$$\n如何求二元函数的极值点.md:17:求函数$$\n极限复盘.md:21:曲线$$\n未命名.md:6:如何推出$$\n格林公式求平面图形面积.md:12: 即$$\n积分题目复盘.md:202:5. 利用$$\n第三章 一元函数积分学及其应用.md:29:取$$\n重根.md:5:令$$"
+          },
+          {
+            "id": "call_01_3jNP5GACO62m3hMuqz7r3579",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\反常积分的敛散性.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t### 第一类\n2\t有一反常积分$$\n3\t\\int_{a}^{\\infty} \\frac{dx}{x^p}\n4\t$$\n5\t当$x\\to \\infty$， 则\n6\t$$\n7\tp>1 \\implies 收敛\n8\t$$\n9\t$$\n10\tp\\leq1 \\implies 发散\n11\t$$\n12\t\n13\t![[Pasted image 20260815040503.png]]\n14\t\n15\t\n16\t### 第二类模型：\n17\t$x\\to a^+$\n18\t$$\n19\t\n20\t\\int_{a}^{a+\\delta} \\frac{dx}{(x-a)^p}\n21\t$$\n22\t有：\n23\t$$\n24\tp<1 \\implies 收敛\n25\t$$\n26\t$$\n27\tp\\geq1 \\implies 发散\n28\t$$\n29\t例子：\n30\t$$\n31\t\\int_{0}^{1} \\frac{dx}{\\sqrt{ x }}\n32\t$$就是收敛的\n33\t\n34\t$$\n35\t\\int_{0}^{1} \\frac{dx}{x}\n36\t$$\n37\t就是发散的\n38\t\n39\t\n40\t### 第三类比较敛散法\n41\t\n42\ttodo\n43\t\n44\t## summation\n45\t\n46\t![[Pasted image 20260815035408.png]]\n47\t\n48\t![[Pasted image 20260815041039.png]]\n49\t\n50\t\n51\t\n52\t\n53\t\n54\t\n55\t函数趋于 0，是反常积分收敛的必要条件，但不是充分条件。\n56\t\n57\t\n58\t例题：\n59\t1. 例子1\n60\t![[Pasted image 20260816002443.png]]\n61\t- 反常积分收敛的必要条件：函数趋近于0\n62\t为什么这个题要用反常积分收敛的必要条件？（而[[第三章 一元函数积分学及其应用#^36de78|例子5]]为什么就不用这个必要条件）\n63\t我的理解是反常积分收敛的必要条件总是跟泰勒展开结伴而行的，这两个数学主题经常在一起用，所以我们要看被积函数里有没有适合用泰勒展开的形式。若有，则可以考虑用反常积分收敛的必要条件。\n64\t\n65\t那么问题可以转化成：\n66\ta=？使得$$\n67\t\\int_{2}^{+\\infty} \\frac{\\ln x}{x^a}dx\n68\t$$是收敛的\n69\t- 为什么这里a>1, 而不是a>0\n70\t\n71\t$$\n72\t\\int_{2}^{+\\infty} (e^{\\frac{\\ln x}{x^a}}-1)dx\n73\t$$是收敛的，求a的取值范围\n74\t\n75\t\n76\t\n77\t2. 例子2\n78\t![[Pasted image 20260816004700.png]]\n79\tC"
+          },
+          {
+            "id": "call_02_AqTpQgKiDwdfwQ16aHpw8134",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\极限复盘.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t\n2\t盘点我遇到的求极限题\n3\t\n4\t\n5\t# 例题\n6\t## 1. 例子1\n7\t![[Pasted image 20260817012027.png]]\n8\t- 这题的难点在于怎么求b\n9\t$$\n10\tb=\\lim_{ x \\to \\infty } x\\ln\\left( e+\\frac{1}{x-1} \\right)-x\n11\t$$\n12\t### 背后的idea\n13\t- 先提取x，凑出 $$\\ln(A+\\alpha)-\\ln A$$就有$$\\ln\\left( 1+\\frac{\\alpha}{A} \\right) \\sim \\frac{\\alpha}{A}$$$\\frac{\\alpha}{A}$是无穷小。注意这里 $\\alpha$ **可以为负**。即$$\\ln(A+\\alpha)-\\ln A \\sim \\frac{\\alpha}{A}$$\n14\t- 看到**陌生**的$$\\ln(A+无穷小量)$$会把A化为1\n15\t### 变体\n16\t#### 变体例子1\n17\t![[Pasted image 20260817013730.png]]\n18\t#### 变体例子2\n19\t![[Pasted image 20260817015349.png]]\n20\t#### 变体例子3\n21\t曲线$$\n22\ty=x\\ln\\left( \\pi-\\frac{3}{x+2} \\right)\n23\t$$的斜渐近线方程为\n24\t$A. y=(\\ln \\pi)x+\\pi$\n25\t$B. y=(\\ln \\pi)x-\\frac{3}{\\pi}$\n26\t$C. y=(\\ln \\pi)x$\n27\t$D. y=(\\ln \\pi)x+\\frac{3}{\\pi}$\n28\t\n29\tans:\n30\t$B. y=(\\ln \\pi)x-\\frac{3}{\\pi}$\n31\t\n32\t### 出题的角度\n33\t想出这种题只需构造\n34\t$$\n35\ty=x\\ln(\\text{常数+无穷小量})\n36\t$$即可\n37\t"
+          },
+          {
+            "id": "call_03_l9aNwe7hkm4jpnWUhGQW4333",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\一元积分复盘.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t\n2\t这个笔记主要怎么求具体积分的问题，可以会涵盖某个具体题目涉及到的求积分问题，这时要有链接\n3\t\n4\t# 例题\n5\t## 1. 例子\n6\t$$\n7\t\\int \\frac{\\ln(\\tan x)}{\\sin x\\cos x}dx\n8\t$$\n9\t### idea:\n10\t识别出一种模式, 即\"**函数 x 其导数**\"的积分：\n11\t$$\n12\t\\int f(x)\\cdot f'(x)dx=\\frac{1}{2}f^2(x)\n13\t$$\n14\t这道题跟[[第三章一元积分学#^4f218c]]有直接联系\n15\t\n16\t## 2. 求积分利用配方法\n17\t### 反例（坑）\n18\t![[Pasted image 20260816220934.png]]\n19\t$$\n20\t\\int \\frac{dx}{x(a+x^3)}\n21\t$$\n22\t看到$\\frac{1}{P(x)}$的形式，自然想到配方法，但是这道题不能用。正确做法是部分分式分解\n23\t思考：\n24\t- 为什么不能用配方法，什么情况下可以\n25\t- 用部分分式分解，从后见之明来看，\n26\t$$\n27\t\\frac{1}{x(a+x^3)}=\\frac{1}{a}\\left( \\frac{1}{x} -\\frac{x^2}{a+x^3} \\right)\n28\t$$\n29\t不需要设$Bx^2+Cx+D$, 只需要$Bx^2$即可，能不能把这个后见之明变成先见之明。而且这里明显不能用奇偶对称性了\n30\t- 这里的难点在于部分分式分解\n31\t\n32\t"
+          },
+          {
+            "id": "call_00_tS48l34H06dfqocaNrWY8045",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\第三章一元积分学.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t\n2\t这个笔记主要记录我在刷27李林880题所遇到的一元积分学问题，格式是”题目+idea+变体“\n3\t记录27李林880题所遇到的一元积分学问题的还有 [[第三章 一元函数积分学及其应用]]\n4\t# 例题\n5\t## 例子1\n6\t\n7\t^4f218c\n8\t\n9\t![[Pasted image 20260816161255.png]]\n10\t### 背后的idea:\n11\t- 看到 \n12\t$$\n13\tf \\cdot f'\n14\t$$的形式, 即 “函数 x 其导数”，要想到复合函数求导\n15\t$$\n16\t\\frac{d(f^2)}{dx} = 2f \\cdot f'\n17\t$$\n18\t或者\n19\t$$\n20\t\\int f\\cdot f'dx=\\frac{1}{2}f^2\n21\t$$\n22\t### 做题的线索\n23\t- 函数 x 其导数 的积分的形式（$f \\cdot f'$）\n24\t- 被积函数是一个分式，其分子是对数，可以考虑先求这个分子的导数\n25\t\n26\t## 例子2\n27\t![[Pasted image 20260816171528.png]]\n28\t### 背后的idea:\n29\t- 函数的麦克劳林展开\n30\t$x\\to0$时, 且$f$在$x=0$附近有足够阶的导数\n31\t$$\n32\tf(x)=f(0)+f'(0)x+\\frac{f''(0)x^2}{2}+\\frac{f'''(0)x^3}{3!}+\\dots+\\frac{f^{(n)}(0)x^n}{n!}+R_{n}(0)\n33\t$$\n34\t### 做题的线索\n35\t- 题目告诉我们函数在 0 附近的函数值和一阶导(n阶导)，就要想到麦克劳林展开的可能性\n36\t### 变体\n37\t#### 变体例子1\n38\t![[Pasted image 20260816171925.png]]\n39\t\n40\t## 例子3\n41\t设$f(x)$可导，对任意$x,y$，有$f(x+y)=\\int_{x}^{x+y} \\frac{t(t^2+1)}{f(t)}dt+f(x)$，且$f(1)=\\sqrt{ 2 }$, 则$f(x)=?$\n42\t### 背后的idea:\n43\t- 逆用[[牛顿莱布尼茨公式]]：\n44\t$$\n45\tf(b)-f(a)=\\int_{a}^{b}f'(t)dt\n46\t$$\n47\t- $f \\cdot f'$ 的形式\n48\t### 变体\n49\t#### 变体例子1\n50\t![[Pasted image 20260816202024.png]]\n51\t## 例子4\n52\t设$f(x)$在$[0,+\\infty)$上可导，$f(0)=0$，$y=f(x)$的反函数为$g(x)$，若$\\int_{x}^{x+f(x)}g(t-x)\\mathrm{d}t=x^{2}\\ln(1+x)$，则$f(1)=?$\n53\t\n54\t### 背后的idea\n55\t- 遇到双变限积分考虑换元，将下限变为常数，运用变上限积分求导公式\n56\t- 已知$f'(x)$和$f(a)$，要求$f(b)$，套用牛顿莱布尼茨公式\n57\t\n58\t### 做题的线索\n59\t- 变限积分的被积函数是反函数\n60\t- 双变限积分\n61\t\n62\t\n63\t"
+          },
+          {
+            "id": "call_01_EMVeHj5i8ZNXgY5yTiKa9385",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\斜渐近线.md",
+              "offset": 100,
+              "limit": 45
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "100\t$$\n101\tb=\\lim_{ t \\to a } (y(t)-kx(t) )\n102\t$$\n103\t\n104\t## 一个朴素的想法：\n105\t若\n106\t$$\n107\t\\lim_{ x \\to +\\infty } e^x \\cdot (\\dots) \n108\t$$极限存在，那么\n109\t$$\n110\t\n111\t\\lim_{ x \\to +\\infty } (...)\n112\t$$一定等于0\n113\t\n114\t若(...) = f(x)+kx+b\n115\t那么f(x)有一斜渐近线：$y=-kx-b$\n116\t\n117\t\n118\t\n119\t\n120\t例子：\n121\t\n122\t1. 求曲线\n123\t$$\n124\ty=\\frac{1}{\\left|x \\right|-1}+\\ln(1+e^{-x})\n125\t$$的渐近线的条数（4条）\n126\t$$\n127\t\\lim_{ x \\to -\\infty } \\frac{\\ln(1+e^{-x})}{x}=-1\n128\t$$\n129\t一定要小心 $e^{-x}$这个东西的极限，很阴险，正负无穷大的极限值不一样\n130\t正无穷大为0\n131\t负无穷大为$\\infty$\n132\t\n133\t$e^{-x}$图像如下，其实跟$e^x$图像是关于y轴对称的\n134\t![[Pasted image 20260812160005.png]]\n135\t\n136\t2. 求曲线\n137\t$$\n138\ty=\\sqrt{ 4x^2+x }\\ln\\left( 2+\\frac{1}{x} \\right)\n139\t$$的全部渐近线\n140\t\n141\t- 1. 我一直都是以x->+infty的模式训练的，但是这里我们必须求x->-infty的情况，我有点处理不了，为什么会出现负号，到底哪里应该出现负号\n142\t- 2. 这题其实跟之前做的利用泰勒展开求极限是一类题。虽然这里x->infty，但是我们总能把所有的x写成$\\frac{1}{ax}$的形式，即$\\frac{1}{ax}->0$，所以泰勒展开又可以用了\n143\t- 3. 为什么这里$\\sqrt{ 4x^2+x }$能化为1/ax的形式，哪些可以化，哪些不可以，能不能一般化, 到底哪些pattern可以化为我们想要的1/ax的形式以便我们使用泰勒展开\n144\t$$"
+          },
+          {
+            "id": "call_02_VUFrhEvNWQAAKh6vtPTD3858",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\未命名.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t我们知道 \n2\t\n3\t$$\n4\t\\ln^{(n)} x=(-1)^{n-1}(n-1)!x^{-n}\n5\t$$\n6\t如何推出$$\n7\t\\ln(1+x)\n8\t$$的麦克劳林展开式的"
+          },
+          {
+            "id": "call_03_R10rp85v9LTMYJmAB9AC4767",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\曲面积分.md",
+              "offset": 100,
+              "limit": 25
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "100\t\n101\t- **挖洞法**：被积函数在曲面内部有奇点时，挖去奇点小邻域\n102\t\n103\t---\n104\t\n105\t## 四、斯托克斯公式\n106\t\n107\t### 1. 旋度\n108\t$$\\text{rot} \\vec{F} = \\nabla \\times \\vec{F} = \n109\t\\begin{vmatrix}\n110\t\\vec{i} & \\vec{j} & \\vec{k} \\\\\n111\t\\frac{\\partial}{\\partial x} & \\frac{\\partial}{\\partial y} & \\frac{\\partial}{\\partial z} \\\\\n112\tP & Q & R\n113\t\\end{vmatrix}$$\n114\t\n115\t### 2. 斯托克斯公式\n116\t$$\\oint_{\\Gamma} P dx + Q dy + R dz = \\iint_{\\Sigma} \n117\t\\begin{vmatrix}\n118\tdydz & dzdx & dxdy \\\\\n119\t\\frac{\\partial}{\\partial x} & \\frac{\\partial}{\\partial y} & \\frac{\\partial}{\\partial z} \\\\\n120\tP & Q & R\n121\t\\end{vmatrix}$$\n122\t\n123\t或写作：\n124\t$$\\oint_{\\Gamma} \\vec{F} \\cdot d\\vec{r} = \\iint_{\\Sigma} \\text{rot} \\vec{F} \\cdot d\\vec{S}$$"
+          },
+          {
+            "id": "call_00_f7Boinl3qPHGtqlzt3Fw5540",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\一重积分计算.md",
+              "limit": 95,
+              "offset": 200
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "200\t\n201\t### 技巧 4：Wallis 公式\n202\t\n203\t$$\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} \\cos^n x\\,\\mathrm{d}x = \\begin{cases}\n204\t\\dfrac{n-1}{n} \\cdot \\dfrac{n-3}{n-2} \\cdots \\dfrac{1}{2} \\cdot \\dfrac{\\pi}{2}, & n \\text{ 为偶数} \\\\[8pt]\n205\t\\dfrac{n-1}{n} \\cdot \\dfrac{n-3}{n-2} \\cdots \\dfrac{2}{3} \\cdot 1, & n \\text{ 为奇数}\n206\t\\end{cases}$$\n207\t\n208\t---\n209\t\n210\t## 四、反常积分（广义积分）\n211\t\n212\t### 1. 无穷限反常积分\n213\t\n214\t$$\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x = \\lim_{b \\to +\\infty} \\int_a^b f(x)\\,\\mathrm{d}x$$\n215\t\n216\t> **敛散性判别**（比较判别法）：\n217\t>\n218\t> $$\\int_1^{+\\infty} \\frac{1}{x^p}\\,\\mathrm{d}x \\begin{cases}\n219\t> \\text{收敛}, & p > 1 \\\\\n220\t> \\text{发散}, & p \\le 1\n221\t> \\end{cases}$$\n222\t\n223\t### 2. 无界函数的反常积分（瑕积分）\n224\t\n225\t若 $\\lim\\limits_{x \\to a^+} f(x) = \\infty$（$x=a$ 为瑕点），则：\n226\t\n227\t$$\\int_a^b f(x)\\,\\mathrm{d}x = \\lim_{\\varepsilon \\to 0^+} \\int_{a+\\varepsilon}^b f(x)\\,\\mathrm{d}x$$\n228\t\n229\t> **$\\boldsymbol{p}$ 积分的敛散性**：\n230\t>\n231\t> $$\\int_0^1 \\frac{1}{x^p}\\,\\mathrm{d}x \\begin{cases}\n232\t> \\text{收敛}, & p < 1 \\\\\n233\t> \\text{发散}, & p \\ge 1\n234\t> \\end{cases}$$\n235\t\n236\t### 3. 两个判别法的对比\n237\t\n238\t| 类型 | 判别积分 | 收敛条件 | 发散条件 |\n239\t|------|----------|----------|----------|\n240\t| 无穷限 | $\\displaystyle\\int_1^{+\\infty}\\frac{1}{x^p}\\mathrm{d}x$ | $p > 1$ | $p \\le 1$ |\n241\t| 瑕积分 | $\\displaystyle\\int_0^1\\frac{1}{x^p}\\mathrm{d}x$ | $p < 1$ | $p \\ge 1$ |\n242\t\n243\t> 💡 **记忆**：无穷远处要 \"够小\"（$p>1$ 收敛），瑕点附近要 \"不太大\"（$p<1$ 收敛）。\n244\t\n245\t---\n246\t\n247\t## 五、Γ 函数（考研扩展）\n248\t\n249\t$$\\Gamma(s) = \\int_0^{+\\infty} x^{s-1}e^{-x}\\,\\mathrm{d}x \\quad (s>0)$$\n250\t\n251\t**常用结论**：\n252\t\n253\t| 公式 | 说明 |\n254\t|------|------|\n255\t| $\\Gamma(s+1) = s\\Gamma(s)$ | 递推公式 |\n256\t| $\\Gamma(n+1) = n!$ | $n$ 为正整数 |\n257\t| $\\Gamma\\left(\\frac12\\right) = \\sqrt{\\pi}$ | 等价于泊松积分 $\\int_0^{+\\infty}e^{-x^2}\\mathrm{d}x = \\frac{\\sqrt{\\pi}}{2}$ |\n258\t| $\\Gamma\\left(\\frac32\\right) = \\frac{\\sqrt{\\pi}}{2}$ | |\n259\t\n260\t---\n261\t\n262\t## 六、经典题型\n263\t\n264\t### 题型 1：凑微分法的运用\n265\t\n266\t> **例 1** 计算 $\\displaystyle\\int \\frac{\\ln x}{x}\\,\\mathrm{d}x$。\n267\t\n268\t> [!note]- 解答\n269\t>\n270\t> $$\n271\t> \\int \\frac{\\ln x}{x}\\,\\mathrm{d}x = \\int \\ln x\\,\\mathrm{d}(\\ln x) = \\frac{1}{2}(\\ln x)^2 + C\n272\t> $$\n273\t\n274\t> **例 2** 计算 $\\displaystyle\\int_0^{\\frac{\\pi}{2}} \\sin^3 x\\,\\mathrm{d}x$。\n275\t\n276\t> [!note]- 解答\n277\t>\n278\t> 解法一（凑微分）：\n279\t> $$\n280\t> \\int_0^{\\frac{\\pi}{2}} \\sin^3 x\\,\\mathrm{d}x = \\int_0^{\\frac{\\pi}{2}} (1-\\cos^2 x)\\sin x\\,\\mathrm{d}x = -\\int_0^{\\frac{\\pi}{2}} (1-\\cos^2 x)\\,\\mathrm{d}(\\cos x)\n281\t> $$\n282\t> 令 $u=\\cos x$，$x:0\\to\\frac{\\pi}{2}$ 对应 $u:1\\to0$：\n283\t> $$= -\\int_1^0 (1-u^2)\\,\\mathrm{d}u = \\int_0^1 (1-u^2)\\,\\mathrm{d}u = \\left[u - \\frac{u^3}{3}\\right]_0^1 = \\frac{2}{3}$$\n284\t>\n285\t> 解法二（Wallis公式）：$n=3$ 为奇数，$\\displaystyle\\int_0^{\\frac{\\pi}{2}} \\sin^3x\\,\\mathrm{d}x = \\frac{2}{3}\\cdot1 = \\frac{2}{3}$。\n286\t\n287\t---\n288\t\n289\t### 题型 2：分部积分法\n290\t\n291\t> **例 3** 计算 $\\displaystyle\\int x e^x\\,\\mathrm{d}x$。\n292\t\n293\t> [!note]- 解答\n294\t>"
+          },
+          {
+            "id": "call_01_IJUkAbe7DVtYnLeFPK3L5184",
+            "name": "Bash",
+            "input": {
+              "command": "echo \"=== latex-suite manifest ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/plugins/obsidian-latex-suite/manifest.json\"; echo; echo \"=== realclaudian manifest ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/plugins/realclaudian/manifest.json\"; echo; echo \"=== realclaudian data.json ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/plugins/realclaudian/data.json\" 2>/dev/null | head -30; echo; echo \"=== Minimal theme manifest ===\"; cat \"E:/kaoyan/math/01_高等数学/.obsidian/themes/Minimal/manifest.json\"",
+              "description": "Read plugin manifests and theme manifest"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "=== latex-suite manifest ===\n{\n\t\"id\": \"obsidian-latex-suite\",\n\t\"name\": \"Latex Suite\",\n\t\"version\": \"1.11.5\",\n\t\"minAppVersion\": \"1.0.0\",\n\t\"description\": \"Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements\",\n\t\"author\": \"artisticat\",\n\t\"authorUrl\": \"https://github.com/artisticat1\",\n\t\"fundingUrl\": \"https://ko-fi.com/artisticat\",\n\t\"isDesktopOnly\": false\n}\n=== realclaudian manifest ===\n{\n  \"id\": \"realclaudian\",\n  \"name\": \"Claudian\",\n  \"version\": \"2.0.39\",\n  \"minAppVersion\": \"1.7.2\",\n  \"description\": \"Embeds Claude Code, Codex, and other coding agents as AI collaborators in your vault. Your vault becomes their working directory, giving them capabilities for file reads and writes, search, bash commands, and multi-step workflows.\",\n  \"author\": \"Yishen Tu\",\n  \"authorUrl\": \"https://github.com/YishenTu\",\n  \"isDesktopOnly\": true\n}\n\n=== realclaudian data.json ===\n{\n  \"tabManagerState\": {\n    \"openTabs\": [\n      {\n        \"tabId\": \"tab-1784380737659-l3h20lr\",\n        \"conversationId\": \"conv-1785230764955-3cxjkokk8\"\n      },\n      {\n        \"draftModel\": \"opus\",\n        \"tabId\": \"tab-1786904320772-hvfd580\",\n        \"conversationId\": \"conv-1786904394837-jbf1shdlh\"\n      }\n    ],\n    \"activeTabId\": \"tab-1786904320772-hvfd580\"\n  }\n}\n=== Minimal theme manifest ===\n{\r\n\t\"name\": \"Minimal\",\r\n\t\"version\": \"8.2.2\",\r\n\t\"minAppVersion\": \"1.9.0\",\r\n\t\"author\": \"@kepano\",\r\n\t\"authorUrl\": \"https://twitter.com/kepano\",\r\n\t\"fundingUrl\": \"https://www.buymeacoffee.com/kepano\"\r\n}"
+          },
+          {
+            "id": "call_02_u7FtzmkuFquMfK7FJZpE2861",
+            "name": "Grep",
+            "input": {
+              "glob": "*.md",
+              "output_mode": "count",
+              "path": "E:\\kaoyan\\math\\01_高等数学",
+              "pattern": "^\\$\\$$"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "-a的绝对值=a的绝对值.md:2\nsec x 的 n 次方怎么求.md:22\n七种未定式.md:2\n三步走处理第一类曲线积分.md:10\n一元积分复盘.md:8\n万能代换求三角函数有理式.md:8\n一个点的信息 ≠ 一个邻域的信息.md:30\n为什么散度的定义是三个偏导之和.md:2\n二重积分的应用.md:4\n二重积分计算.md:4\n偶函数.md:8\n分部积分法.md:18\n凹函数凸函数.md:4\n利用分部积分计算反常积分.md:4\n利用等价无穷小求极限.md:8\n利用麦克劳林展开求高阶导.md:11\n利用洛必达法则求函数极限.md:3\n华莱士公式.md:14\n反三角函数恒等式.md:44\n反导数的求导法则.md:2\n反常积分的敛散性.md:15\n反射和轮换对称性.md:8\n因式分解.md:2\n回文多项式.md:2\n圆的参数化方程.md:6\n奇变偶不变 符号看象限.md:10\n基础公式\\牛顿莱布尼茨公式.md:2\n基础公式\\降幂公式.md:6\n基础公式\\辅助角公式.md:4\n对称性：三维.md:10\n如何找一个点关于区间中点的镜像点.md:10\n如何利用“部分分式分解”来解有理函数积分问题.md:20\n常用的导数.md:6\n工具箱第0层\\nabla算子.md:6\n如何利用高斯公式解曲面积分.md:6\n如何理解第一类曲面积分的微元.md:17\n如何判断分段函数在分段点的极限、连续性和可导性.md:28\n工具箱第0层\\斯托克斯公式.md:6\n微分方程.md:52\n工具箱第0层\\五个常用麦克劳林展开式.md:61\n截出的曲面的方程.md:2\n无穷级数.md:18\n斜渐近线.md:33\n极限复盘.md:3\n曲线积分.md:48\n格林公式.md:34\n格林公式求平面图形面积.md:5\n极值点 复盘.md:1\n格林公式挖洞.md:2\n椭圆参数化方程.md:2\n椭圆的参数化方程.md:6\n曲面积分.md:2\n未命名.md:2\n求函数极值点.md:2\n求收敛半径的两种方法.md:22\n泰勒展开.md:4\n点到平面的距离公式.md:4\n积分公式.md:10\n积分的统一框架.md:9\n积分题目复盘.md:96\n积分统一的框架概述.md:3\n第三章一元积分学.md:9\n第三章 一元函数积分学及其应用.md:17\n经典的极限.md:8\n绝对值函数的不可导性.md:4\n通量为什么一定要这么定义.md:6\n重根.md:1\n\nFound 838 total occurrences across 67 files."
+          },
+          {
+            "id": "call_03_HUWp1MTKISrhM4mLoLXX1827",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\第三章 一元函数积分学及其应用.md",
+              "limit": 20,
+              "offset": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "20\t$$\n21\tf'(x)>f(x)\n22\t$$\n23\t则：\n24\tf(x)在定义域内单调递增\n25\t\n26\t是错的\n27\t\n28\t反例：\n29\t取$$\n30\tf(x)=−e^x−1, \\:\\:\\: x  \\in  R\n31\t$$\n32\t---\n33\t\n34\t看到\n35\t$$\n36\tf'(x)>af(x)+b\n37\t$$\n38\t就构造积分因子 $e^{-ax}$\n39\t"
+          },
+          {
+            "id": "call_00_uLLePfAwGDk0NhC0vTkM5098",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\利用麦克劳林展开求高阶导.md",
+              "limit": 20,
+              "offset": 26
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "26\t$$\n27\t求$f^{(4)}(0)$\n28\t\n29\t解：\n30\t这里要求f(x)的麦克劳林展开，$a_4$是$x^4$前的系数，而不是第五项的系数，所以这里也没有奇数项比如$a_{3}, a_5, a_{7}$等 \n31\t\n32\t换句话说$$\n33\ta_{n}是x^n前的系数\n34\t$$\n35\t不是第n项的系数\n36\t\n37\t>$a_n$​ 的下标 n，对应的是 $x^n$ 的幂次，不是第 n 个非零项。\n38\t\n39\t\n40\t2. 例子2\n41\t设$$\n42\tf(x)=\\ln(\\sqrt{ 1+x^2}-x), \n43\t$$则$f^{(5)}(0)=?$\n44\t\n45\t- 解："
+          },
+          {
+            "id": "call_01_5bQaZIqtuPY4ah4wVd570073",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\积分题目复盘.md",
+              "limit": 12,
+              "offset": 196
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "196\t## 三角函数积分的原则\n197\t通过恒等变形，把积分变成“某个基本函数的微分 × 关于这个基本函数的函数”\n198\t1. 利用 $d(\\cos x)=-\\sin xdx$ , 前提是你能把被积函数化为 $f(\\cos x)$\n199\t2. $d(\\sin x)=\\cos xdx$, 前提是你能把被积函数化为 $f(\\sin x)$\n200\t3. 利用$d(\\sec t)=\\sec t \\cdot \\tan tdt$, , 前提是你能把被积函数化为 $f(\\sec x)$, 或者$f(\\tan^{2n} t)$\n201\t4. 利用 $d(\\sin x+\\cos x)=(\\cos x - \\sin x)dx = -(\\sin x - \\cos x)dx$\n202\t5. 利用$$\n203\t\\sin x=\\frac{1}{2}[(\\sin x-\\cos x)+(\\sin x+\\cos x)]\n204\t$$\n205\t\n206\t\n207\t"
+          },
+          {
+            "id": "call_02_IKXDIAOnh0q0r2Nml8wm5748",
+            "name": "Read",
+            "input": {
+              "file_path": "E:\\kaoyan\\math\\01_高等数学\\如何求二元函数的极值点.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t\n2\t\n3\t\n4\t1. 先求一阶偏导, $f_x$ , $f_y$\n5\t2. 令其等于0,求出驻点\n6\t3. 求二阶偏导 $f_{xx}$, $f_{yy}$, $f_{xy}$, 并把驻点代入\n7\t4. 利用判别式D = $f_{xx}f_{yy}-f^2_{xy}$\n8\t5. 如果D>0, and f_xx > 0, 极小值\n9\t6. 如果D>0, and f_xx < 0, 极大值\n10\t7. D<0, 鞍点\n11\t8. D=0, 无法判断\n12\t\n13\t\n14\t\n15\t例子:\n16\t\n17\t求函数$$\n18\tf(x,y)=(2x^2-y^2)e^x\n19\t$$的极值\n20\t"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a802ea714b244086f",
+        "startedAt": 1786904607375,
+        "result": "再补两处上下文后即可汇总。",
+        "completedAt": 1786904719064
+      }
+    }
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

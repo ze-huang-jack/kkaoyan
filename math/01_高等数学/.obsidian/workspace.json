@@ -8,35 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2efd0f9faafc2cb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具箱第0层/五个常用麦克劳林展开式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "五个常用麦克劳林展开式"
-            }
-          },
-          {
-            "id": "9f2fbbd6e43d83d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "反常积分的敛散性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "反常积分的敛散性"
-            }
-          },
-          {
             "id": "e244e20b2d267872",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "数学一分值分布/数学一各考点分值情况.png"
+              },
+              "icon": "lucide-image",
+              "title": "数学一各考点分值情况"
+            }
+          },
+          {
+            "id": "0846463c36bda6a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,49 +34,21 @@
             }
           },
           {
-            "id": "05be61a3b2bb764c",
+            "id": "0e4367b830683dbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "斜渐近线.md",
+                "file": "极限复盘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "斜渐近线"
+              "title": "极限复盘"
             }
           },
           {
-            "id": "773ab2764218a754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "经典的极限.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "经典的极限"
-            }
-          },
-          {
-            "id": "a47d9410d089084c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "利用洛必达法则求函数极限.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "利用洛必达法则求函数极限"
-            }
-          },
-          {
-            "id": "9084de1d69dd7100",
+            "id": "d484bd380999c1fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,35 +62,49 @@
             }
           },
           {
-            "id": "17ff3492ad201852",
+            "id": "09c91ce49d98f28d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第三章一元积分学.md",
+                "file": "多元微分学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第三章一元积分学"
+              "title": "多元微分学"
             }
           },
           {
-            "id": "71e529bec0d5d418",
+            "id": "0ccd9cbbd3a8f366",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "积分问题复盘.md",
+                "file": "隐函数存在定理和多元函数链式法则.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "积分问题复盘"
+              "title": "隐函数存在定理和多元函数链式法则"
+            }
+          },
+          {
+            "id": "a131e03a8bbc2893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "多元函数的极值.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "多元函数的极值"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -192,7 +162,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第三章 一元函数积分学及其应用.md",
+                "file": "多元微分学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "如何利用“部分分式分解”来解有理函数积分问题.md",
+                "file": "多元微分学.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
@@ -274,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "积分问题复盘.md",
+                "file": "多元微分学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -282,13 +253,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "d2d057c322d693a8",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 413.49267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,43 +283,44 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "71e529bec0d5d418",
+  "active": "09c91ce49d98f28d",
   "lastOpenFiles": [
-    "第三章一元积分学.md",
-    "积分问题复盘.md",
+    "隐函数存在定理和多元函数链式法则.md",
+    "多元微分学.md",
+    "多元函数的极值.md",
     "第三章 一元函数积分学及其应用.md",
-    "工具箱第0层/五个常用麦克劳林展开式.md",
-    "Pasted image 20260816171925.png",
-    "Pasted image 20260816171528.png",
-    "Pasted image 20260816161255.png",
+    "Pasted image 20260818200736.png",
+    "Pasted image 20260818200351.png",
+    "Pasted image 20260818191915.png",
+    "Pasted image 20260818191844.png",
+    "Pasted image 20260818191826.png",
+    "Pasted image 20260818165424.png",
+    "Pasted image 20260818165403.png",
+    "Pasted image 20260818120907.png",
+    "Pasted image 20260818120857.png",
+    "Pasted image 20260818120121.png",
+    "极限复盘.md",
+    "第三章一元积分学.md",
+    "一元积分复盘.md",
     "积分题目复盘.md",
+    "工具箱第0层/五个常用麦克劳林展开式.md",
+    "第二章 一元函数微分学及其应用.md",
+    "经典的极限.md",
+    "微积分基本定理.md",
+    "斜渐近线.md",
     "反常积分的敛散性.md",
+    "基础公式/牛顿莱布尼茨公式.md",
     "利用洛必达法则求函数极限.md",
     "拉格朗日中值定理.md",
     "未命名.md",
-    "pics/Pasted image 20260814202419.png",
     "epsilon(x) and o(x).md",
     "fff.md",
-    "斜渐近线.md",
-    "经典的极限.md",
     "绝对值函数的不可导性.md",
-    "基础公式/牛顿莱布尼茨公式.md",
-    "变上限积分.md",
-    "pics/Pasted image 20260816004936.png",
-    "pics/Pasted image 20260816004700.png",
-    "pics/Pasted image 20260816002443.png",
-    "pics/Pasted image 20260815232001.png",
-    "pics/Pasted image 20260815231954.png",
-    "pics/Pasted image 20260815225547.png",
     "第三章 一元函数积分学及其应用^3. 例子3.md",
     "第三章 一元函数积分学及其应用^da57d1.md",
     "反常积分的计算.md",
     "求收敛半径的两种方法.md",
     "思想by_pika/数学学习最核心的秘密是什么？by pika.md",
-    "思想by_pika/数学实践.md",
-    "思想by_pika/数学老是学了后面忘了前面怎么办by pika.md",
-    "思想by_pika/数学笔记的基本原则.md",
-    "一重积分计算.md",
     "微分方程.md.tmp.2004.cb70723b0ef6",
     "Base.base"
   ]
