@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "db6dd874051ff74a",
+            "id": "3394aa73389ee6b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,34 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "第五章 多元函数微分学"
-            }
-          },
-          {
-            "id": "dc4ba36acd2ed393",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "利用克拉默法则解二元一次方程组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "利用克拉默法则解二元一次方程组"
-            }
-          },
-          {
-            "id": "afdb0d7a1934551d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "多元函数的极值.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "多元函数的极值"
             }
           }
         ],
@@ -98,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "极值",
+                "query": "多元微分",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,15 +215,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "db6dd874051ff74a",
+  "active": "3394aa73389ee6b7",
   "lastOpenFiles": [
     "第三章 一元函数积分学.md",
+    "多元函数的极值.md",
+    "pics/Pasted image 20260823220255.png",
     "第五章 多元函数微分学.md",
     "利用克拉默法则解二元一次方程组.md",
-    "多元函数的极值.md",
-    "Pasted image 20260823230453.png",
-    "Pasted image 20260823223137.png",
-    "Pasted image 20260823220255.png",
+    "pics/Pasted image 20260823230453.png",
+    "pics/Pasted image 20260823223137.png",
     "Base.base",
     "pics/Pasted image 20260821222005.png",
     "我可能会忘的 vs. 我大概率不会忘的.md",
@@ -281,7 +253,6 @@
     "思想by_pika/解决问题的思路.md",
     "思想by_pika/了解你工具的局限性by陶哲轩.md",
     "思想by_pika/如何高效复习数学.md",
-    "思想by_pika/如何利用tricki写作来积累数学工具箱.md",
     "微分方程.md.tmp.2004.cb70723b0ef6"
   ]
 }
