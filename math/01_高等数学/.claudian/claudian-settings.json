@@ -1,6 +1,6 @@
 {
   "userName": "",
-  "permissionMode": "plan",
+  "permissionMode": "normal",
   "model": "opus",
   "thinkingBudget": "off",
   "effortLevel": "max",
@@ -89,7 +89,7 @@
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "plan"
+    "claude": "normal"
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
