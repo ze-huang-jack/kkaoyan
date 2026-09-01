@@ -11,6 +11,30 @@
             "id": "91ed9979dba8db90",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民)"
+            }
+          },
+          {
+            "id": "53980e7656eead7e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民)"
+            }
+          },
+          {
+            "id": "114378d3258f50d1",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "第一章 绪论.md",
@@ -21,7 +45,8 @@
               "title": "第一章 绪论"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,11 +213,19 @@
       "bases:新建数据库": false
     }
   },
-  "active": "12188db4160e8a7c",
+  "active": "114378d3258f50d1",
   "lastOpenFiles": [
-    "Pasted image 20260830221119.png",
-    "Pasted image 20260830212734.png",
-    "Pasted image 20260830212713.png",
-    "第一章 绪论.md"
+    "Pasted image 20260831172828.png",
+    "2027_王道_数据结构.pdf",
+    "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民).pdf",
+    "pics/Pasted image 20260830212713.png",
+    "教材",
+    "第一章 绪论.md",
+    "pics",
+    "pics/Pasted image 20260831164459.png",
+    "pics/Pasted image 20260831164032.png",
+    "pics/Pasted image 20260831163935.png",
+    "pics/Pasted image 20260830221119.png",
+    "pics/Pasted image 20260830212734.png"
   ]
 }
