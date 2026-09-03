@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 644.5,
-    "collapsed": true
+    "width": 644.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,12 +188,17 @@
       "bases:新建数据库": false
     }
   },
-  "active": "8b0a8f9ab205d812",
+  "active": "b0a8952eac5ff058",
   "lastOpenFiles": [
+    "pics/Pasted image 20260903211013.png",
+    "pics/Pasted image 20260903210944.png",
+    "pics/Pasted image 20260903210445.png",
     "第一章 绪论.md",
-    "leetcode1299.md",
     "leetcode152.md",
+    "leetcode1299.md",
     "第二章 线性表.md",
+    "pics/Pasted image 20260903201904.png",
+    "pics/Pasted image 20260903195621.png",
     "pics/Pasted image 20260901162914.png",
     "pics/Pasted image 20260901170453.png",
     "pics/Pasted image 20260901165749.png",
@@ -202,13 +206,9 @@
     "未命名",
     "pics/Pasted image 20260901155615.png",
     "pics/Pasted image 20260901153703.png",
-    "pics/Pasted image 20260831172828.png",
     "2027_王道_数据结构.pdf",
     "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民).pdf",
-    "pics/Pasted image 20260830212713.png",
     "教材",
-    "pics",
-    "pics/Pasted image 20260831164459.png",
-    "pics/Pasted image 20260831164032.png"
+    "pics"
   ]
 }
