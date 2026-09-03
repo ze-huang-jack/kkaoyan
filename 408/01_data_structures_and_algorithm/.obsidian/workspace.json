@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1bec0e17299a59ab",
+        "id": "5c2225c1d8de82ea",
         "type": "tabs",
         "children": [
           {
-            "id": "114378d3258f50d1",
+            "id": "8b0a8f9ab205d812",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pics/Pasted image 20260901162914.png"
+                "file": "第二章 线性表.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260901162914"
+              "icon": "lucide-file",
+              "title": "第二章 线性表"
             }
           }
         ]
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pics/Pasted image 20260901162914.png",
+                "file": "第二章 线性表.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 644.5
+    "width": 644.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,14 +189,16 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b0a8952eac5ff058",
+  "active": "8b0a8f9ab205d812",
   "lastOpenFiles": [
+    "第一章 绪论.md",
+    "leetcode1299.md",
+    "leetcode152.md",
     "第二章 线性表.md",
+    "pics/Pasted image 20260901162914.png",
     "pics/Pasted image 20260901170453.png",
     "pics/Pasted image 20260901165749.png",
     "pics/Pasted image 20260901164046.png",
-    "pics/Pasted image 20260901162914.png",
-    "第一章 绪论.md",
     "未命名",
     "pics/Pasted image 20260901155615.png",
     "pics/Pasted image 20260901153703.png",
