@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第九章 线面积分.md",
+                "file": "组合数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第九章 线面积分"
+              "title": "组合数"
             }
           }
         ],
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第九章 线面积分.md",
+                "file": "组合数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -256,7 +256,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 591.26513671875
+    "width": 591.26513671875,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,10 +271,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "1667e0c530e87e90",
+  "active": "8e307466321a8bae",
   "lastOpenFiles": [
-    "空间解析几何.md",
     "第九章 线面积分.md",
+    "组合数.md",
+    "空间解析几何.md",
     "如何利用高斯公式解曲面积分.md",
     "第六章 重积分.md",
     "第五章 多元函数微分学.md",
