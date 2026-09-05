@@ -150,8 +150,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -271,15 +270,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "64ce13c62c03d8a8",
+  "active": "1667e0c530e87e90",
   "lastOpenFiles": [
     "空间解析几何.md",
     "第九章 线面积分.md",
     "如何利用高斯公式解曲面积分.md",
     "第六章 重积分.md",
     "第五章 多元函数微分学.md",
-    "Pasted image 20260904164857.png",
-    "Pasted image 20260904153353.png",
+    "pics/Pasted image 20260904164857.png",
+    "pics/Pasted image 20260904153353.png",
     "工具箱第0层/斯托克斯公式.md",
     "工具箱第0层/调和级数.md",
     "利用克拉默法则解二元一次方程组.md",
