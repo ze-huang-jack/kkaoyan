@@ -11,23 +11,6 @@
             "id": "619655dbdbbd8144",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "b074dc81f8224765",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "第六章 图.md",
@@ -38,8 +21,7 @@
               "title": "第六章 图"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,31 +189,30 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b0a8952eac5ff058",
+  "active": "619655dbdbbd8144",
   "lastOpenFiles": [
-    "pics/Pasted image 20260910152846.png",
+    "pics/Pasted image 20260910220534.png",
+    "第六章 图.md",
+    "pics/Pasted image 20260910220820.png",
+    "pics/Pasted image 20260910220812.png",
+    "pics/Pasted image 20260910220719.png",
+    "pics/Pasted image 20260910220656.png",
+    "pics/Pasted image 20260910220642.png",
+    "pics/Pasted image 20260910220616.png",
+    "pics/Pasted image 20260910220559.png",
+    "pics/Pasted image 20260910220542.png",
+    "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
     "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
     "未命名.canvas",
-    "第六章 图.md",
-    "pics/Pasted image 20260910152256.png",
+    "pics/Pasted image 20260910152846.png",
     "第四章 串.md",
     "第五章 树与二叉树.md",
-    "pics/Pasted image 20260910143801.png",
     "未命名",
-    "pics/Pasted image 20260910150006.png",
-    "pics/Pasted image 20260910145727.png",
-    "pics/Pasted image 20260910144411.png",
-    "pics/Pasted image 20260910143930.png",
-    "pics/Pasted image 20260910143850.png",
-    "pics/Pasted image 20260910143834.png",
-    "pics/Pasted image 20260910143811.png",
-    "pics/Pasted image 20260909172539.png",
     "第三章 栈、队列和数组.md",
     "第二章 线性表.md",
     "第一章 绪论.md",
     "leetcode1299.md",
     "leetcode152.md",
-    "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
     "未命名 1.canvas",
     "Excalidraw",
     "2027_王道_数据结构.pdf",
