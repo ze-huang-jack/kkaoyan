@@ -4,22 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "791a32e1a0b7c476",
+        "id": "5a93d7c52f0ba613",
         "type": "tabs",
         "children": [
           {
-            "id": "c8dc4a1ac37401f2",
+            "id": "619655dbdbbd8144",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "pics/Pasted image 20260909172539.png"
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260909172539"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "b074dc81f8224765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "第六章 图.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第六章 图"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pics/Pasted image 20260909172539.png",
+                "file": "第六章 图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 587.5
+    "width": 454
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,28 +209,31 @@
   },
   "active": "b0a8952eac5ff058",
   "lastOpenFiles": [
+    "pics/Pasted image 20260910152846.png",
+    "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
+    "未命名.canvas",
+    "第六章 图.md",
+    "pics/Pasted image 20260910152256.png",
+    "第四章 串.md",
     "第五章 树与二叉树.md",
-    "pics/Pasted image 20260909210906.png",
-    "pics/Pasted image 20260909205834.png",
-    "pics/Pasted image 20260909205425.png",
-    "pics/Pasted image 20260909205405.png",
-    "pics/Pasted image 20260909205341.png",
-    "pics/Pasted image 20260909201347.png",
-    "pics/Pasted image 20260909200833.png",
-    "pics/Pasted image 20260909200824.png",
-    "pics/Pasted image 20260909200802.png",
-    "pics/Pasted image 20260909173119.png",
+    "pics/Pasted image 20260910143801.png",
+    "未命名",
+    "pics/Pasted image 20260910150006.png",
+    "pics/Pasted image 20260910145727.png",
+    "pics/Pasted image 20260910144411.png",
+    "pics/Pasted image 20260910143930.png",
+    "pics/Pasted image 20260910143850.png",
+    "pics/Pasted image 20260910143834.png",
+    "pics/Pasted image 20260910143811.png",
+    "pics/Pasted image 20260909172539.png",
     "第三章 栈、队列和数组.md",
     "第二章 线性表.md",
-    "第四章 串.md",
     "第一章 绪论.md",
     "leetcode1299.md",
     "leetcode152.md",
     "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
-    "未命名.canvas",
     "未命名 1.canvas",
     "Excalidraw",
-    "未命名",
     "2027_王道_数据结构.pdf",
     "数据结构_C语言版_第2版(严蔚敏,李冬梅,吴伟民).pdf",
     "教材",
