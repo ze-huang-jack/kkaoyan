@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第六章 图.md",
+                "file": "第七章 查找.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第六章 图"
+              "title": "第七章 查找"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第六章 图.md",
+                "file": "第七章 查找.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,25 +191,27 @@
   },
   "active": "619655dbdbbd8144",
   "lastOpenFiles": [
-    "pics/Pasted image 20260910220534.png",
     "第六章 图.md",
-    "pics/Pasted image 20260910220820.png",
-    "pics/Pasted image 20260910220812.png",
-    "pics/Pasted image 20260910220719.png",
-    "pics/Pasted image 20260910220656.png",
-    "pics/Pasted image 20260910220642.png",
-    "pics/Pasted image 20260910220616.png",
-    "pics/Pasted image 20260910220559.png",
-    "pics/Pasted image 20260910220542.png",
-    "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
-    "未命名.canvas",
-    "pics/Pasted image 20260910152846.png",
-    "第四章 串.md",
     "第五章 树与二叉树.md",
-    "未命名",
     "第三章 栈、队列和数组.md",
+    "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
+    "第四章 串.md",
+    "第七章 查找.md",
     "第二章 线性表.md",
+    "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
+    "pics/Pasted image 20260912133543.png",
+    "pics/Pasted image 20260912162217.png",
+    "pics/Pasted image 20260912162206.png",
+    "pics/Pasted image 20260912161131.png",
+    "pics/Pasted image 20260912160819.png",
+    "pics/Pasted image 20260912160621.png",
+    "pics/Pasted image 20260912160458.png",
+    "2的次方.md",
+    "pics/Pasted image 20260912105832.png",
+    "pics/Pasted image 20260912093938.png",
+    "pics/Pasted image 20260912093928.png",
+    "未命名.canvas",
+    "未命名",
     "第一章 绪论.md",
     "leetcode1299.md",
     "leetcode152.md",
