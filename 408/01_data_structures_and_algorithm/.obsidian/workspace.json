@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第七章 查找.md",
+                "file": "第二章 线性表.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454
+    "width": 454,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,26 +190,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b0a8952eac5ff058",
+  "active": "619655dbdbbd8144",
   "lastOpenFiles": [
-    "pics/Pasted image 20260913121226.png",
-    "pics/Pasted image 20260913121128.png",
+    "第三章 栈、队列和数组.md",
+    "第二章 线性表.md",
+    "第六章 图.md",
     "第五章 树与二叉树.md",
     "第七章 查找.md",
-    "第三章 栈、队列和数组.md",
+    "pics/Pasted image 20260913162218.png",
+    "pics/Pasted image 20260913161125.png",
+    "pics/Pasted image 20260913161108.png",
+    "pics/Pasted image 20260913160602.png",
+    "pics/Pasted image 20260913121226.png",
+    "pics/Pasted image 20260913121128.png",
     "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
     "pics/Pasted image 20260913105054.png",
     "pics/Pasted image 20260913110128.png",
     "pics/Pasted image 20260913105910.png",
     "pics/Pasted image 20260913105848.png",
-    "pics/Pasted image 20260913105824.png",
-    "pics/Pasted image 20260913105744.png",
-    "pics/Pasted image 20260913105720.png",
-    "pics/Pasted image 20260913105146.png",
-    "pics/Pasted image 20260913105123.png",
-    "第六章 图.md",
     "第四章 串.md",
-    "第二章 线性表.md",
     "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
     "2的次方.md",
     "未命名.canvas",

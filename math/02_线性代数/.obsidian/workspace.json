@@ -11,12 +11,14 @@
             "id": "e95835d9839526a4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260804043612.png"
+                "file": "第十章 行列式.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260804043612"
+              "icon": "lucide-file",
+              "title": "第十章 行列式"
             }
           }
         ]
@@ -97,8 +99,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "线性变换的知识.md",
-                "collapseAll": false,
+                "file": "第十章 行列式.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "线性变换的知识.md",
+                "file": "第十章 行列式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "线性变换的知识.md",
+                "file": "第十章 行列式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,12 +170,12 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,10 +190,15 @@
   },
   "active": "e95835d9839526a4",
   "lastOpenFiles": [
-    "Base.base",
-    "Pasted image 20260804043612.png",
-    "线性变换的知识.md",
+    "Pasted image 20260913210549.png",
+    "Pasted image 20260913205505.png",
+    "Pasted image 20260913205131.png",
     "教材/线性代数第六版.pdf",
+    "第十章 行列式.md",
+    "Base.base",
+    "线性变换的知识.md",
+    "pics/Pasted image 20260804043612.png",
+    "pics",
     "教材/Introduction to Linear Algebra_Ed_5_Gilbert_Strang.pdf",
     "Introduction to Linear Algebra_Ed_5_Gilbert_Strang.pdf",
     "教材"

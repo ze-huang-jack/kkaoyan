@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第九章 线面积分.md",
+                "file": "直线的参数化方程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第九章 线面积分"
+              "title": "直线的参数化方程"
             }
           },
           {
@@ -126,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "第二类曲线积分",
+                "query": "范",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第九章 线面积分.md",
+                "file": "直线的参数化方程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -272,9 +273,9 @@
   },
   "active": "b675df9a736c2004",
   "lastOpenFiles": [
+    "第九章 线面积分.md",
     "如何利用高斯公式解曲面积分.md",
     "组合数.md",
-    "第九章 线面积分.md",
     "空间解析几何.md",
     "第六章 重积分.md",
     "第五章 多元函数微分学.md",
