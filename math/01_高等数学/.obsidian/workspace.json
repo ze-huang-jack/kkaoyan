@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "直线的参数化方程.md",
+                "file": "第一章 极限.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "直线的参数化方程"
+              "title": "第一章 极限"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "直线的参数化方程.md",
+                "file": "空间解析几何.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -271,8 +271,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b675df9a736c2004",
+  "active": "64ce13c62c03d8a8",
   "lastOpenFiles": [
+    "第一章 极限.md",
+    "直线的参数化方程.md",
     "第九章 线面积分.md",
     "如何利用高斯公式解曲面积分.md",
     "组合数.md",
@@ -302,13 +304,11 @@
     "第三章 一元函数积分学.md",
     "球坐标与柱坐标的比较.md",
     "积分统一的框架概述.md",
-    "直线的参数化方程.md",
     "对称性：三维.md",
     "反射和轮换对称性.md",
     "曲线积分.md",
     "2026-7-28.md",
     "圆柱面方程.md",
-    "曲线积分总结.md",
     "联系.canvas",
     "Base.base",
     "微分方程.md.tmp.2004.cb70723b0ef6"
