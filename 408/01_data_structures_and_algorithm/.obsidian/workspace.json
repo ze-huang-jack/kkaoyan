@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第七章 查找.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第七章 查找"
+              "title": "未命名"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第七章 查找.md",
+                "file": "未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,8 +191,11 @@
   },
   "active": "619655dbdbbd8144",
   "lastOpenFiles": [
-    "pics/Pasted image 20260914210724.png",
     "第七章 查找.md",
+    "未命名.md",
+    "第六章 图.md",
+    "pics/Pasted image 20260914234328.png",
+    "pics/Pasted image 20260914210724.png",
     "pics/Pasted image 20260914210845.png",
     "pics/Pasted image 20260914210818.png",
     "pics/Pasted image 20260914210806.png",
@@ -201,8 +204,6 @@
     "pics/Pasted image 20260914204220.png",
     "pics/Pasted image 20260914202936.png",
     "pics/Pasted image 20260914195020.png",
-    "pics/Pasted image 20260914195014.png",
-    "第六章 图.md",
     "第三章 栈、队列和数组.md",
     "第二章 线性表.md",
     "第五章 树与二叉树.md",
