@@ -1,18 +1,19 @@
 {
 	"nodes":[
-		{"id":"39f4c1a7b53677b0","x":-880,"y":380,"width":250,"height":60,"type":"text","text":"操作系统"},
-		{"id":"7ad3eff24b003359","x":-880,"y":180,"width":250,"height":60,"type":"text","text":"\n高级语言"},
-		{"id":"3a3a7090fda5cc23","x":-675,"y":280,"width":250,"height":60,"type":"text","text":"汇编语言"},
-		{"id":"8a8f48b9ae57e273","x":-675,"y":480,"width":250,"height":60,"type":"text","text":"ISA（机器语言）"},
-		{"id":"91876a3b9cc4cfd9","x":-860,"y":580,"width":250,"height":50,"type":"text","text":"微架构"},
-		{"id":"43254863c13d8899","x":-630,"y":660,"width":250,"height":60,"type":"text","text":"逻辑电门"},
-		{"id":"0e16f15612805950","x":-755,"y":80,"width":250,"height":60,"color":"4","type":"text","text":"计算机系统的层次结构"}
+		{"id":"39f4c1a7b53677b0","type":"text","text":"操作系统","x":-880,"y":380,"width":250,"height":60},
+		{"id":"7ad3eff24b003359","type":"text","text":"\n高级语言","x":-880,"y":180,"width":250,"height":60},
+		{"id":"3a3a7090fda5cc23","type":"text","text":"汇编语言","x":-675,"y":280,"width":250,"height":60},
+		{"id":"8a8f48b9ae57e273","type":"text","text":"ISA（机器语言）","x":-675,"y":480,"width":250,"height":60},
+		{"id":"91876a3b9cc4cfd9","type":"text","text":"微架构","x":-860,"y":580,"width":250,"height":50},
+		{"id":"43254863c13d8899","type":"text","text":"逻辑电门","x":-630,"y":660,"width":250,"height":60},
+		{"id":"0e16f15612805950","type":"text","text":"计算机系统的层次结构","x":-755,"y":80,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"e1e0333a58ee6cbf","fromNode":"3a3a7090fda5cc23","fromSide":"left","toNode":"39f4c1a7b53677b0","toSide":"top"},
 		{"id":"40575934ec347213","fromNode":"39f4c1a7b53677b0","fromSide":"right","toNode":"8a8f48b9ae57e273","toSide":"top"},
 		{"id":"65a20e45aa1eb2ee","fromNode":"8a8f48b9ae57e273","fromSide":"left","toNode":"91876a3b9cc4cfd9","toSide":"top"},
 		{"id":"60af075d7d888f12","fromNode":"91876a3b9cc4cfd9","fromSide":"right","toNode":"43254863c13d8899","toSide":"top"},
-		{"id":"fe3fd5760434734b","fromNode":"7ad3eff24b003359","fromSide":"right","toNode":"3a3a7090fda5cc23","toSide":"top"}
+		{"id":"fe3fd5760434734b","fromNode":"7ad3eff24b003359","fromSide":"right","toNode":"3a3a7090fda5cc23","toSide":"top"},
+		{"id":"21d30d25fa6b8f2c","fromNode":"0e16f15612805950","fromSide":"bottom","toNode":"7ad3eff24b003359","toSide":"top"}
 	]
 }
