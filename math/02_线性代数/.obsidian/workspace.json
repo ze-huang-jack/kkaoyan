@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "伴随矩阵的性质.md",
+                "file": "第十章 行列式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "伴随矩阵的性质"
+              "title": "第十章 行列式"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "伴随矩阵的性质.md",
+                "file": "第十章 行列式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 281.7181396484375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,10 +190,10 @@
   },
   "active": "e95835d9839526a4",
   "lastOpenFiles": [
-    "线性变换的知识.md",
-    "行列式的性质.md",
     "伴随矩阵的性质.md",
     "第十章 行列式.md",
+    "线性变换的知识.md",
+    "行列式的性质.md",
     "pics/Pasted image 20260913210549.png",
     "pics/Pasted image 20260913205505.png",
     "pics/Pasted image 20260913205131.png",
