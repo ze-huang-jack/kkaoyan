@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d97dd33eff3e1b6a",
+        "id": "089a44663bd7ee7d",
         "type": "tabs",
         "children": [
           {
-            "id": "6e2b26d5e07d57ec",
+            "id": "8bc99691cbcc9d36",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454
+    "width": 506.166748046875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,22 +189,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b0a8952eac5ff058",
+  "active": "8bc99691cbcc9d36",
   "lastOpenFiles": [
-    "pics/Pasted image 20260919164117.png",
-    "pics/Pasted image 20260919163833.png",
-    "pics/Pasted image 20260919110839.png",
-    "第8章 排序.md",
-    "pics/Pasted image 20260919155118.png",
-    "pics/Pasted image 20260919154952.png",
-    "pics/Pasted image 20260919154804.png",
-    "第7章 查找.md",
-    "pics/Pasted image 20260919154110.png",
-    "pics/Pasted image 20260919153054.png",
-    "pics/Pasted image 20260919152737.png",
-    "pics/Pasted image 20260919152548.png",
-    "pics/Pasted image 20260919151844.png",
+    "pics/Pasted image 20260922141007.png",
     "第6章 图.md",
+    "pics/Pasted image 20260922144001.png",
+    "pics/Pasted image 20260922143540.png",
+    "pics/Pasted image 20260922143015.png",
+    "pics/Pasted image 20260922142902.png",
+    "pics/Pasted image 20260922142727.png",
+    "pics/Pasted image 20260922142657.png",
+    "pics/Pasted image 20260922141831.png",
+    "pics/Pasted image 20260922141451.png",
+    "pics/Pasted image 20260922141158.png",
+    "第8章 排序.md",
+    "第7章 查找.md",
     "第5章 树与二叉树.md",
     "第4章 串.md",
     "第3章 栈、队列和数组.md",
