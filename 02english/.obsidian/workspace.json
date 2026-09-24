@@ -1,23 +1,24 @@
 {
   "main": {
-    "id": "8a9d1368c9fb0c1a",
+    "id": "28471713b40f70eb",
     "type": "split",
     "children": [
       {
-        "id": "a3e73cf787e5e0ad",
+        "id": "228bebe7450a3506",
         "type": "tabs",
         "children": [
           {
-            "id": "b994e142c9e1e5f1",
+            "id": "7e6146bf64370821",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Base.base",
-                "viewName": "表格"
+                "file": "26 考研英语一翻译.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Base"
+              "icon": "lucide-file",
+              "title": "26 考研英语一翻译"
             }
           }
         ]
@@ -26,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b60c330436997d22",
+    "id": "1bd92f3c03337a2a",
     "type": "split",
     "children": [
       {
-        "id": "581d895830673c77",
+        "id": "fba4939960af9ad7",
         "type": "tabs",
         "children": [
           {
-            "id": "0f4e5c44a94397d7",
+            "id": "83ba09568193f170",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +50,7 @@
             }
           },
           {
-            "id": "9cda3d387246f0aa",
+            "id": "c767286bd6a15793",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +67,7 @@
             }
           },
           {
-            "id": "d2c0b450dc3e6e8d",
+            "id": "396e900008f82dd1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "629f8bddb8be9f1f",
+    "id": "62eb4ce73fec45d5",
     "type": "split",
     "children": [
       {
-        "id": "622b1b9155e5d786",
+        "id": "ea4f44e87955e3dc",
         "type": "tabs",
         "children": [
           {
-            "id": "f62e62c113843414",
+            "id": "6b90b7ac6b0ddb75",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02english/26 考研英语一翻译.md",
+                "file": "26 考研英语一翻译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,11 +113,12 @@
             }
           },
           {
-            "id": "58a91611fe5f3ac3",
+            "id": "2720b681b40f406a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "26 考研英语一翻译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -125,7 +127,7 @@
             }
           },
           {
-            "id": "5d1f30daed84e50a",
+            "id": "04d098127d376952",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,7 +142,7 @@
             }
           },
           {
-            "id": "24e658a8f8a0d20c",
+            "id": "1b6b2e0808c66fce",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -154,12 +156,12 @@
             }
           },
           {
-            "id": "6d2f5dc12b84d388",
+            "id": "67024ade3ca6dfa0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base.base",
+                "file": "26 考研英语一翻译.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,12 +170,12 @@
               "title": "大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 571.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,19 +185,9 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "bases:新建数据库": false
     }
   },
-  "active": "b994e142c9e1e5f1",
-  "lastOpenFiles": [
-    "Base.base",
-    "01政治/placeholder.md",
-    "01政治",
-    "随笔/日记/2026-07-19.md",
-    "408/01_data_structures_and_algorithm/第7章 查找.md",
-    "随笔/日记",
-    "408/01_data_structures_and_algorithm/第6章 图.md",
-    "408/01_data_structures_and_algorithm/第4章 串.md"
-  ]
+  "active": "7e6146bf64370821",
+  "lastOpenFiles": []
 }
