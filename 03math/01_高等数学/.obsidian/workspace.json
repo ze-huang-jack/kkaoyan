@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "连续 可导",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +108,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第5章 多元函数微分学.md",
+                "file": "数学竞赛/CMC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,8 +205,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -229,10 +228,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "031db6c9a8fe8282",
+  "active": "22adb04a2957e7f6",
   "lastOpenFiles": [
-    "数学竞赛/CMC.md",
     "第5章 多元函数微分学.md",
+    "数学竞赛/CMC.md",
     "第3章 一元函数积分学.md",
     "第三章 一元函数积分学及其应用.md",
     "第二章 一元函数微分学及其应用.md",
