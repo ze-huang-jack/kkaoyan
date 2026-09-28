@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "26 考研英语一翻译.md",
+                "file": "notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26 考研英语一翻译"
+              "title": "notes"
             }
           }
         ]
@@ -99,14 +99,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "26 考研英语一翻译.md",
-                "collapseAll": false,
+                "file": "notes.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
               "title": "反向链接"
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "26 考研英语一翻译.md",
+                "file": "notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,12 +170,12 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 422.8333740234375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,5 +189,8 @@
     }
   },
   "active": "7e6146bf64370821",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "26 考研英语一翻译.md",
+    "notes.md"
+  ]
 }
