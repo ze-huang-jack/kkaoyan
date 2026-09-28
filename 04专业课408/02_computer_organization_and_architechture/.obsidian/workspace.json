@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第6章 总线.md",
-                "mode": "source",
+                "file": "第3章 存储系统.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "第6章 总线"
+              "title": "第3章 存储系统"
             }
           }
         ]
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第6章 总线.md",
+                "file": "第3章 存储系统.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -197,19 +197,21 @@
   },
   "active": "742c4ccb174102d2",
   "lastOpenFiles": [
-    "第7章 输入输出系统.md",
-    "pics/Pasted image 20260928102108.png",
-    "第6章 总线.md",
-    "pics/Pasted image 20260928114713.png",
-    "pics/Pasted image 20260928113259.png",
-    "pics/Pasted image 20260928113238.png",
-    "pics/Pasted image 20260928113215.png",
-    "pics/Pasted image 20260928113156.png",
-    "pics/Pasted image 20260928113124.png",
-    "pics/Pasted image 20260928113059.png",
-    "pics/Pasted image 20260928112447.png",
-    "pics/Pasted image 20260928105451.png",
+    "pics/Pasted image 20260928185647.png",
     "第3章 存储系统.md",
+    "pics/Pasted image 20260928203747.png",
+    "pics/Pasted image 20260928203726.png",
+    "pics/Pasted image 20260928203712.png",
+    "pics/Pasted image 20260928203702.png",
+    "pics/Pasted image 20260928203654.png",
+    "pics/Pasted image 20260928203652.png",
+    "pics/Pasted image 20260928203641.png",
+    "pics/Pasted image 20260928203535.png",
+    "pics/Pasted image 20260928195729.png",
+    "pics/Pasted image 20260928195106.png",
+    "我可能会忘的.md",
+    "第6章 总线.md",
+    "第7章 输入输出系统.md",
     "第1章 计算机系统概述.md",
     "第2章 数据的表示和运算.md",
     "第4章 指令系统.md",
@@ -220,7 +222,6 @@
     "2026-09-18.md",
     "内存单位.md",
     "数据库.base",
-    "我可能会忘的.md",
     "杂项/计算机组成原理(谭志虎).pdf",
     "杂项/第一章 计算机系统概述.pdf",
     "杂项/2025考研408计算机学科专业基础真题.pdf",
