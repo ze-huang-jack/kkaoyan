@@ -55,3 +55,70 @@ z=f(x,y)->v->f
 我好像知道了，又好像不知道，
 
 md这里fv最后竟然消掉了，因为y=0，😲
+
+
+$$
+\frac{\partial^2z}{\partial x\partial y}=\frac{\partial z}{\partial x} \cdot \frac{\partial z}{\partial y}
+$$
+
+
+
+## (三)
+
+![[Pasted image 20260929121839.png]]
+
+
+设 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，在 $x=0$ 处可导，且满足$f(x) = x^3 + x^2\lim_{x\to 0}\frac{f(x)}{x} - x\int_{0}^{1}f(x)\mathrm{d}x.$ 求函数 $f(x)$ 的表达式
+
+### idea
+把一个复杂整体看做未知常数
+这里$\lim_{ x \to 0 } \frac{f(x)}{x}$和 $\int_{0}^1 f(x)dx$ 其实都是确凿无疑的常数，所以分别设为A和B，那么$f(x)=x^3+Ax^2-Bx$
+接下来就是精彩的部分了
+1. 将上式两边同时除以x，令x->0，这样可以得到A=-B
+2. 将f(x)的表达式带入B里面积分计算
+这样就可以得到A和B，f(x)的表达式就顺势得到了
+
+### 过程
+![[Pasted image 20260929124026.png|661]]
+
+
+
+## (四) 伯努利方程的变体
+![[Pasted image 20260929131035.png]]
+
+
+求微分方程 $y'x \ln x \sin y + (1 - x\cos y)\cos y = 0$ 的通解。
+
+### idea
+![[Pasted image 20260929132926.png]]
+
+直接令u = cos y 
+
+### 变体
+#### 变体例子1
+
+求微分方程 $y'x \ln x \cos y - (1 - x\sin y)\sin y = 0$ 的通解。
+
+Ans: $\frac{1}{\sin y}=\frac{1}{\ln x}(x+C)$
+只需要令$u=\sin y$，一切就迎刃而解了
+
+![[Pasted image 20260929134359.png]]
+
+
+积分因子公式法求解一阶线性微分方程
+![[Pasted image 20260929134600.png|479]]
+
+## (五) second order mixed partial derivative
+
+![[Pasted image 20260929214518.png]]
+
+
+![[Pasted image 20260929214525.png|498]]
+
+
+### 变体
+#### 变体例子 1
+![[Pasted image 20260929215830.png]]
+注：先对 x  求偏导，再对  y  求偏导
+
+![[Pasted image 20260929220004.png]]
