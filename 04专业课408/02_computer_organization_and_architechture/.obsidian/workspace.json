@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.md",
+                "file": "第3章 存储系统.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2"
+              "title": "第3章 存储系统"
             }
           }
         ]
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.md",
+                "file": "第3章 存储系统.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -198,7 +198,7 @@
   "active": "742c4ccb174102d2",
   "lastOpenFiles": [
     "pics/Pasted image 20261002170806.png",
-    "2.md",
+    "第3章 存储系统.md",
     "pics/Pasted image 20261002172915.png",
     "pics/Pasted image 20261002172906.png",
     "pics/Pasted image 20261002172858.png",
