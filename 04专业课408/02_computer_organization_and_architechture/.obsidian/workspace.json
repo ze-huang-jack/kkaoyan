@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "579ac08f1895d56e",
+        "id": "d363174da401e0c7",
         "type": "tabs",
         "children": [
           {
-            "id": "742c4ccb174102d2",
+            "id": "880b01152c7301f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第3章 存储系统.md",
+                "file": "第4章 指令系统.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "第3章 存储系统"
+              "title": "第4章 指令系统"
             }
           }
         ]
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第3章 存储系统.md",
+                "file": "第4章 指令系统.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -195,29 +195,30 @@
       "bases:新建数据库": false
     }
   },
-  "active": "742c4ccb174102d2",
+  "active": "880b01152c7301f1",
   "lastOpenFiles": [
-    "pics/Pasted image 20261002170806.png",
-    "第3章 存储系统.md",
-    "pics/Pasted image 20261002172915.png",
-    "pics/Pasted image 20261002172906.png",
-    "pics/Pasted image 20261002172858.png",
-    "pics/Pasted image 20261002170925.png",
-    "pics/Pasted image 20261002170842.png",
-    "pics/Pasted image 20261002170827.png",
-    "第1章 计算机系统概述.md",
-    "第2章 数据的表示和运算.md",
-    "第5章 中央处理器.md",
+    "字.md",
     "第4章 指令系统.md",
+    "pics/Pasted image 20261005162038.png",
+    "pics/Pasted image 20261005154212.png",
+    "第3章 存储系统.md",
+    "第2章 数据的表示和运算.md",
+    "第1章 计算机系统概述.md",
+    "关于各种字长的比较.md",
+    "第7章 输入输出系统.md",
+    "第6章 总线.md",
+    "第5章 中央处理器.md",
+    "pics/Pasted image 20261004132037.png",
+    "pics/Pasted image 20261004140710.png",
+    "pics/Pasted image 20261004132948.png",
+    "pics/Pasted image 20261004132939.png",
+    "pics/Pasted image 20261004132930.png",
+    "pics/Pasted image 20261004132922.png",
+    "pics/Pasted image 20261004132905.png",
+    "pics/Pasted image 20261004132853.png",
     "杂项/计算机组成与系统结构(第3版） (袁春风、唐杰、杨若瑜、李俊) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "杂项/Unconfirmed 161788.crdownload",
-    "pics/Pasted image 20260929142817.png",
-    "pics/Pasted image 20260928185647.png",
-    "pics/Pasted image 20260928203747.png",
     "我可能会忘的.md",
-    "第6章 总线.md",
-    "第7章 输入输出系统.md",
-    "关于各种字长的比较.md",
     "地址总线宽度.md",
     "test.canvas",
     "2026-09-18.md",
