@@ -6,5 +6,8 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "showInlineTitle": true
 }
