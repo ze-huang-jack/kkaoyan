@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "第5章 中央处理器.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -197,8 +197,9 @@
   },
   "active": "656bbe50cb49daa6",
   "lastOpenFiles": [
-    "pics/Pasted image 20261010162003.png",
+    "第4章 指令系统.md",
     "第5章 中央处理器.md",
+    "pics/Pasted image 20261010162003.png",
     "pics/Pasted image 20261010215836.png",
     "内存单位.md",
     "频率单位赫兹 Hz.md",
@@ -210,12 +211,10 @@
     "pics/Pasted image 20261010171349.png",
     "pics/Pasted image 20261010164215.png",
     "pics/Pasted image 20261010163008.png",
-    "pics/Pasted image 20261010162942.png",
     "第1章 计算机系统概述.md",
     "第6章 总线.md",
     "未命名.md",
     "test.canvas",
-    "第4章 指令系统.md",
     "第7章 输入输出系统.md",
     "关于各种字长的比较.md",
     "数据库.base",
