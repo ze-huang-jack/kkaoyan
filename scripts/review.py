@@ -360,9 +360,15 @@ def render_dashboard(rows: list[dict], t: date) -> str:
     out.append(f"updated: {t.isoformat()}\n")
     out.append("tags:\n  - 复习\n---\n\n")
     out.append(f"# 今日复习清单 · {t.isoformat()}\n\n")
-    out.append("> [!tip] 每天打开库先看这一页。复习完某章，执行：\n")
-    out.append('> `python3 scripts/review.py mark "章名"`\n')
-    out.append('> 或者直接改 [[复习登记]] 里的日期。\n\n')
+    out.append("> [!tip] 这一页每天打开库第一眼看。\n")
+    out.append("> 从上往下做，复习完记一笔：\n")
+    out.append('> `python3 scripts/review.py mark "单元名"`\n')
+    out.append("> 或者直接改 [[复习登记]] 里的日期。\n\n")
+    out.append("> [!note] 排序规则：`距今天数 × 科目系数`。系数大 = 复习这章更费时间，"
+               "所以是从「碎片时间能清掉的」排到「要留整块时间的」。"
+               "「上次复习」为空时，天数按**初次学习**算——"
+               "所以第一次打开会看到一片红，那是正常的，"
+               "复习一轮标一轮，之后才开始准。\n\n")
 
     def table(items: list[dict]) -> str:
         lines = ["| 科目 | 复习单元 | 上次复习 | 初次学习 | 距今天数 | 次数 | 篇数 |\n",
@@ -401,13 +407,18 @@ def render_dashboard(rows: list[dict], t: date) -> str:
 
     out.append("---\n\n")
     out.append("## 怎么用\n\n")
-    out.append("1. **每天打开这一页**，从「紧急」往下挑 1–3 章复习。\n")
-    out.append("2. 复习完记一笔，二选一：\n")
-    out.append('   - 命令行：`python3 scripts/review.py mark "第5章 树与二叉树"`\n')
-    out.append("   - 或打开 [[复习登记]] 把那行的日期改成今天。\n")
-    out.append("3. 重新生成清单：`python3 scripts/review.py`\n\n")
-    out.append("清单的排序规则是 `距今天数 × 科目系数`——系数大代表复习这一章更费时间，"
-               "所以列表是从「快能清掉的」到「要留整块时间的」，从上往下做就行。\n")
+    out.append("**每天**：打开这一页，从最上面挑 1–3 个单元复习，完了记一笔。\n\n")
+    out.append("**记一笔**（二选一）：\n")
+    out.append('- 命令行：`python3 scripts/review.py mark "数据结构·第5章 树与二叉树"`\n')
+    out.append("  （单元名写不全也行，能唯一匹配就认）\n")
+    out.append("- 或者打开 [[复习登记]]，把那行的日期改成今天，次数加一\n\n")
+    out.append("**清单会刷新**——每次 mark 之后自动重算，不需要手动跑。\n\n")
+    out.append("**新学的章**：学完不用管，git 提交后它会自动出现在清单里，"
+               "「初次学习」取的就是提交日期。\n\n")
+    out.append("**想调复习节奏**：改 `scripts/review.py` 顶部的 `SUBJECT_WEIGHT`，"
+               "系数越大排得越靠前。\n\n")
+    out.append("**想让某个主题单独追踪**：在科目目录下建个子文件夹放进去，"
+               "脚本会自动把它当成一个独立单元（现在高数的工具箱、思想by pika 就是这么分的）。\n")
     return "".join(out)
 
 
