@@ -3,3 +3,10 @@
 408/408真题共享/
 math/1987-2026年考研数学真题/
 .gitattributes
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
