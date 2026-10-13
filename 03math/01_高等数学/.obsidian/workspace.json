@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "772ac3953450a8cd",
+        "id": "cb188aa352da05a1",
         "type": "tabs",
         "children": [
           {
-            "id": "82e4b1e2ca9e58d4",
+            "id": "f2613d2ef4629777",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第 7 章 无穷级数/函数展开为幂级数.md",
+                "file": "思想/学习方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数展开为幂级数"
-            }
-          },
-          {
-            "id": "a74ff27e01a2ae95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第 7 章 无穷级数/函数展开为幂级数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "函数展开为幂级数"
-            }
-          },
-          {
-            "id": "c5ed295013cb33cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "积分题目复盘.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "积分题目复盘"
-            }
-          },
-          {
-            "id": "d5c44fc4e66dc0a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "奇函数+偶函数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "奇函数+偶函数"
+              "title": "学习方法"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "奇函数+偶函数.md",
+                "file": "思想/学习方法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -242,34 +199,36 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d5c44fc4e66dc0a4",
+  "active": "f2613d2ef4629777",
   "lastOpenFiles": [
-    "求函数极值点.md",
-    "奇函数+偶函数.md",
-    "第 8 章 常微分方程/齐次式.md",
-    "第 1 章 函数、极限、连续/七种未定式.md",
-    "第 9 章 线面积分/平面曲线积分与路径无关.md",
-    "第 1 章 函数、极限、连续/利用取对数等代数代换计算极限.md",
+    "思想by_pika/ask stupid questions.md",
+    "思想/学习方法.md",
+    "思想",
+    "第 7 章 无穷级数/求幂级数收敛半径的两种方法：比值法、根值法.md",
+    "第 7 章 无穷级数/遇到正项级数考虑比较审敛法.md",
+    "第 7 章 无穷级数/利用比较判别法分析正项级数敛散性.md",
+    "第 7 章 无穷级数/遇到正项级数尝试计算部分和.md",
+    "第 7 章 无穷级数/函数展开为幂级数.md",
+    "第8章 无穷级数 例题.md",
+    "第 7 章 无穷级数/无穷级数考点地图.md",
+    "拉格朗日乘数法.md",
+    "利用克拉默法则解二元一次方程组.md",
     "利用麦克劳林展开求高阶导.md",
-    "第 1 章 函数、极限、连续/利用洛必达法则求函数极限.md",
-    "第 1 章 函数、极限、连续/利用等价无穷小求极限.md",
-    "第 2 章 一元函数微分学/莱布尼茨公式（求高阶导）.md",
-    "第 1 章 函数、极限、连续/经典的极限.md",
-    "第 3 章 一元函数积分学/分部积分法.md",
-    "华莱士公式.md",
-    "第 9 章 线面积分/格林公式.md",
-    "第 9 章 线面积分/如何理解第一类曲面积分的微元.md",
-    "第 3 章 一元函数积分学/如何利用“部分分式分解”来解有理函数积分问题.md",
-    "第 9 章 线面积分/如何利用二重积分来解决第一类曲面积分.md",
-    "第 9 章 线面积分/如何利用高斯公式解曲面积分.md",
-    "第 5 章 多元函数微分学/如何求二元函数的极值点.md",
-    "第 2 章 一元函数微分学/如何判断分段函数在分段点的极限、连续性和可导性.md",
-    "第 9 章 线面积分/三步走处理第一类曲线积分.md",
-    "三种解法.md",
+    "第 5 章 多元函数微分学/求函数极值点.md",
+    "第 6 章 多元函数积分学/球坐标与柱坐标的比较.md",
+    "第 1 章 函数、极限、连续/如何通过扇形面积不等式证明第一重要极限.md",
+    "第 9 章 线面积分/曲面积分.md",
+    "第 9 章 线面积分/曲线积分.md",
+    "第 9 章 线面积分/曲线积分总结.md",
+    "pics/全微分的定理.png",
+    "第 5 章 多元函数微分学/全微分.md",
+    "什么是tricki文章.md",
     "三重积分的计算.md",
     "泰勒展开.md",
+    "题目.md",
     "同角三角函数关系.md",
-    "椭圆参数化方程.md",
+    "第 3 章 一元函数积分学/万能代换求三角函数有理式.md",
+    "第 8 章 常微分方程/微分方程.md",
     "pics/Pasted image 20261012220348.png",
     "pics/Pasted image 20261012223019.png",
     "pics/Pasted image 20261012223104.png",
@@ -279,7 +238,6 @@
     "pics/Pasted image 20261012165440.png",
     "pics/Pasted image 20261012214758.png",
     "pics/Pasted image 20261012213802.png",
-    "pics/Pasted image 20261012213036.png",
     "第 9 章 线面积分",
     "第 8 章 常微分方程",
     "第 6 章 多元函数积分学",
@@ -289,7 +247,6 @@
     "第 3 章 一元函数积分学",
     "第 1 章 函数、极限、连续",
     "第 2 章 一元函数微分学",
-    "数学竞赛",
     "联系.canvas"
   ]
 }

@@ -11,13 +11,14 @@
             "id": "b994e142c9e1e5f1",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Base.base",
-                "viewName": "表格"
+                "file": "03math/03_概率论/概率论概述.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Base"
+              "icon": "lucide-file",
+              "title": "概率论概述"
             }
           }
         ]
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base.base",
+                "file": "03math/03_概率论/概率论概述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,11 +187,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "0f4e5c44a94397d7",
+  "active": "6d2f5dc12b84d388",
   "lastOpenFiles": [
+    "Base.base",
     "03math/01_高等数学/pics/Pasted image 20260924160322.png",
     "03math/01_高等数学/pics/Pasted image 20260924161652.png",
-    "Base.base",
     "01政治/placeholder.md",
     "01政治",
     "随笔/日记/2026-07-19.md",
