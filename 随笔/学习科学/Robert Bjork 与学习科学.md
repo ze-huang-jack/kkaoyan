@@ -517,6 +517,7 @@ Diemand-Yauman et al. (2011) 的"难读字体"效应复现困难。**Bjork 实�
 
 ## 相关
 
+- [[自我调节学习（Bjork 2013 精读）]]——**4.9 那篇核心文献本身的逐页精读**（论证链、元认知推断机制、FAQ、页码地图）
 - [[学习轨迹]]——本笔记第九节的全部个人数据来源
 - [[如何高效复习数学]]——流畅性错觉（4.9 的对应笔记）
 - [[2026-10-12 开始意识到主动复习的重要性]]——提取练习的起点
@@ -530,7 +531,7 @@ Diemand-Yauman et al. (2011) 的"难读字体"效应复现困难。**Bjork 实�
 
 | 目的 | 读哪篇 | 获取方式 |
 | --- | --- | --- |
-| 体系全貌 | Bjork, Dunlosky & Kornell (2013), *Annual Review of Psychology*, 64, 417–444 | 综述，最省时间 |
+| 体系全貌 | Bjork, Dunlosky & Kornell (2013), *Annual Review of Psychology*, 64, 417–444 | 综述，最省时间；**已精读** → [[自我调节学习（Bjork 2013 精读）]] |
 | 理论根基 | Bjork & Bjork (1992), New Theory of Disuse | [实验室免费 PDF](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/RBjork_EBjork_1992.pdf) |
 | 最通俗 | Brown, Roediger & McDaniel (2014), *Make It Stick*, 第 4 章 | 有中译本 |
 | 学习 vs 表现 | Soderstrom & Bjork (2015), *Perspectives on Psychological Science*, 10, 176–199 | 综述 |
