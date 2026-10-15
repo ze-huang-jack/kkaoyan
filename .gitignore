@@ -14,3 +14,5 @@ __pycache__/
 随笔/.obsidian/workspace.json
 */.obsidian/workspace.json
 .obsidian/workspace.json
+/随笔/.obsidian
+*.json
