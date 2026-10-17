@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第 7 章 无穷级数/头脑风暴.md",
+                "file": "第 8 章 常微分方程/欧拉方程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "头脑风暴"
+              "title": "欧拉方程"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "间断",
+                "query": "反导数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第 7 章 无穷级数/头脑风暴.md",
+                "file": "第 8 章 常微分方程/欧拉方程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5701904296875
+    "width": 493.8253173828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,43 +215,43 @@
   },
   "active": "47c2f63ab1e3181f",
   "lastOpenFiles": [
-    "第 7 章 无穷级数/如何利用积分判别法判断级数敛散性.md",
-    "第 7 章 无穷级数/绝对收敛和条件收敛的概念.md",
-    "第 7 章 无穷级数/级数例题.md",
+    "pics/Pasted image 20261017205653.png",
+    "第 8 章 常微分方程/微分方程.md",
+    "第 8 章 常微分方程/欧拉方程.md",
+    "第 8 章 常微分方程/微分方程考点地图.md",
+    "第 5 章 多元函数微分学/求函数极值点.md",
+    "第5章 多元函数微分学.md",
+    "我可能会忘的 vs. 我大概率不会忘的.md",
+    "第 5 章 多元函数微分学/隐函数存在定理和多元函数链式法则.md",
+    "数学竞赛/CMC.md",
+    "反导数的求导法则.md",
+    "第 3 章 一元函数积分学/基本积分表.md",
+    "第 3 章 一元函数积分学/万能代换求三角函数有理式.md",
+    "第 3 章 一元函数积分学/微积分基本定理.md",
+    "第 3 章 一元函数积分学/一元积分复盘.md",
+    "第 3 章 一元函数积分学/一重积分计算.md",
+    "第 8 章 常微分方程/二阶常系数线性非齐次微分方程.md",
+    "pics/Pasted image 20261017193236.png",
+    "第 8 章 常微分方程/齐次式.md",
     "第8章 无穷级数 例题.md",
-    "第 7 章 无穷级数/头脑风暴.md",
-    "第 7 章 无穷级数/求幂级数收敛半径的两种方法：比值法、根值法.md",
-    "第 7 章 无穷级数/判断正项级数敛散性的比值法和根值法.md",
-    "第 7 章 无穷级数/无穷级数.md",
+    "pics/Pasted image 20261017185822.png",
+    "pics/Pasted image 20261017185754.png",
+    "pics/Pasted image 20261017185735.png",
+    "pics/Pasted image 20261017164300.png",
+    "pics/Pasted image 20261017162326.png",
+    "pics/Pasted image 20261017162314.png",
+    "第 7 章 无穷级数/提取练习 2.md",
+    "第 7 章 无穷级数/级数的本质决定因素.md",
     "第 7 章 无穷级数/无穷级数考点地图.md",
-    "组合数.md",
-    "pics/Pasted image 20261013155259.png",
-    "第 7 章 无穷级数/函数展开为幂级数.md",
-    "pics/Pasted image 20261014172455.png",
-    "pics/Pasted image 20261014172439.png",
-    "pics/Pasted image 20261014172330.png",
-    "第 7 章 无穷级数/遇到正项级数考虑比较审敛法.md",
-    "第 7 章 无穷级数/遇到正项级数尝试计算部分和.md",
-    "第 7 章 无穷级数/傅里叶级数.md",
-    "思想/Teaching the Science of Learning.md",
-    "pics/Pasted image 20261014011812.png",
-    "pics/Pasted image 20261014000411.png",
-    "pics/Pasted image 20261013235754.png",
-    "pics/Pasted image 20261013171538.png",
-    "pics/Pasted image 20261013170232.png",
-    "pics/Pasted image 20261013163426.png",
+    "第 7 章 无穷级数/头脑风暴.md",
     "第 7 章 无穷级数/狄利克雷判别法.md",
-    "第二章 一元函数微分学及其应用.md",
-    "第2章 一元微分学.md",
-    "第 2 章 一元函数微分学/间断点.md",
-    "第 7 章 无穷级数/抽象级数.md",
     "第 7 章 无穷级数/反常积分的敛散性.md",
-    "第 7 章 无穷级数/反例库.md",
-    "思想by_pika/ask stupid questions.md",
+    "第 7 章 无穷级数/抽象级数.md",
+    "第 7 章 无穷级数/函数展开为幂级数.md",
+    "Pasted image 20261016234518.png",
+    "pics/Pasted image 20261013155259.png",
+    "pics/Pasted image 20261014172455.png",
     "思想",
-    "第 7 章 无穷级数/利用比较判别法分析正项级数敛散性.md",
-    "拉格朗日乘数法.md",
-    "利用克拉默法则解二元一次方程组.md",
     "第 9 章 线面积分",
     "第 8 章 常微分方程",
     "第 6 章 多元函数积分学",
