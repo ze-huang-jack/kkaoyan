@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第四章 指令系统/提取练习.md",
+                "file": "提取练习/提取练习一.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "提取练习"
+              "title": "提取练习一"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第4章 指令系统.md",
+                "file": "第3章 存储系统.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "第4章 指令系统"
+              "title": "第3章 存储系统"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第4章 指令系统.md",
+                "file": "提取练习/提取练习一.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -244,12 +243,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "55ad311b2059b5c2",
+  "active": "656bbe50cb49daa6",
   "lastOpenFiles": [
-    "第5章 中央处理器.md",
-    "第4章 指令系统.md",
     "第3章 存储系统.md",
+    "提取练习/提取练习一.md",
     "第四章 指令系统/提取练习.md",
+    "第4章 指令系统.md",
+    "提取练习",
+    "第5章 中央处理器.md",
     "pics/Pasted image 20261011163342.png",
     "第四章 指令系统",
     "pics/Pasted image 20261011205353.png",
@@ -288,7 +289,6 @@
     "file1/file2/file3/note1.md",
     "file1/file2/file3",
     "file1/file2",
-    "file1",
     "第三章_存储系统.md",
     "第二章_数据的表示和运算.md"
   ]

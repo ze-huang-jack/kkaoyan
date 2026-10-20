@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第2章 线性表.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第2章 线性表"
+              "title": "未命名"
             }
           },
           {
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第2章 线性表.md",
+                "file": "未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,9 +205,13 @@
   },
   "active": "0b81d3269f3c669c",
   "lastOpenFiles": [
+    "第一章 绪论/时间复杂度分析.md",
+    "pics/Pasted image 20261020223344.png",
+    "pics/Pasted image 20261020222445.png",
+    "pics/Pasted image 20261020222426.png",
+    "第一章 绪论/头脑风暴.md",
     "第1章 绪论.md",
     "第2章 线性表.md",
-    "第一章 绪论/头脑风暴.md",
     "真题记录/2015 年.md",
     "pics/Pasted image 20261013172701.png",
     "未命名.md",
@@ -230,9 +234,6 @@
     "leetcode1299.md",
     "leetcode152.md",
     "第3章 栈、队列和数组.md",
-    "pics/Pasted image 20260926130452.png",
-    "pics/Pasted image 20260926163819.png",
-    "pics/Pasted image 20260926160642.png",
     "Excalidraw/Drawing 2026-09-10 15.27.56.excalidraw.md",
     "Excalidraw/Drawing 2026-09-06 23.19.11.excalidraw.md",
     "未命名.canvas",
