@@ -10,15 +10,11 @@ __pycache__/
 
 # macOS
 .DS_Store
-04专业课408/02_computer_organization_and_architechture/.obsidian/workspace.json
-随笔/.obsidian/workspace.json
-*/.obsidian/workspace.json
-.obsidian/workspace.json
-/随笔/.obsidian
-*.json
-/随笔/.obsidian
-*.json
-/03math/03_概率论/.obsidian
-/03math/01_高等数学/.obsidian
+# Obsidian 本地状态（每个子库各一份，只是本机窗口/外观状态，不必进版本库）
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/appearance.json
+**/.obsidian/cache
+
 /_tmp_dsh
 *.py
