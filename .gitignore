@@ -18,3 +18,6 @@ __pycache__/
 
 /_tmp_dsh
 *.py
+*.json
+*.js
+*.css
